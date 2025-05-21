@@ -68,10 +68,10 @@ Finally, e or E to x or X to exit app:
 
 ![Close.png](Screenshots/Close.png)
 
-# Interesting piece of Code
+# Interesting piece of Code 👀
 ![carbon.png](Screenshots/carbon.png)
 
 I thought that this was an interesting piece of code because thanks to this I was able to hardcode when time when the entry was made so that way you would not have to add it yourself.
 
-# Special Thanks 
+# Special Thanks  👋🏾
 Thank you to one of my teammates who helped me find a good Readme creator called https://readme.so/ to help make this readme template, and using https://carbon.now.sh/ to create the screenshots above, and to my professor who caught little issues like my name conventions and little mistakes that I missed when making this project.
