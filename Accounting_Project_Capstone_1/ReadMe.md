@@ -25,3 +25,30 @@ Timestamp Entries: Automatically captures the current date and time when a new t
 This is that 1st thing you see when you run this app it displays the current time, asks you for the date (YYYY-MM-DD), 
 Enter the Description (What is the item user purchased), Add the Vendor, and lastly Enter the Amount. Once the transaction is complete the message Transaction Added! will appear.
 
+![StartScreen2.png](Screenshots/StartScreen2.png)
+
+You could also add another transaction if you wanted to by pressing Y or y to ann another when Do you want to add another transaction? (y/n) shows up and then when you're done you could exit the app early by pressing Do you want to exit the app? (y/n)
+
+![Ledger Screen List.png](Screenshots/Ledger%20Screen%20List.png)
+
+Once you press N or n you will see the list of items previously in the ledger and the newer additions as well
+
+After that you will see the home screen to show your options:
+
+![HomeScreen.png](Screenshots/HomeScreen.png)
+
+
+As shone here you can press D or d to get deposits:
+![Deposits .png](Screenshots/Deposits%20.png)
+
+Pressing p or P to get payments:
+![Payments.png](Screenshots/Payments.png)
+
+Using r or R you can pull up specific transactions:
+![Reports.png](Screenshots/Reports.png)
+
+Using h or H to make sure your on the home screen:
+![HomeReload.png](Screenshots/HomeReload.png)
+
+Finally, e or E to x or X to exit app:
+![Close.png](Screenshots/Close.png)
