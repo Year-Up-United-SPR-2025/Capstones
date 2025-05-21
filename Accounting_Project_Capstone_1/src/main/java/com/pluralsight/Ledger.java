@@ -42,7 +42,7 @@ public class Ledger {
 
     //Deposits Credit
     private void showCreditTransactions() {
-        System.out.println("\n=== Deposits (Credit) ===");
+        System.out.println("\n=== Deposits ===");
         for (Transactions t : transactions) {
             if (t.amount > 0) {
                 System.out.println(t);
@@ -52,7 +52,7 @@ public class Ledger {
 
     //Payments Debit
     private void showDebitPayments() {
-        System.out.println("\n=== Payments (Debit) ===");
+        System.out.println("\n=== Payments ===");
         for (Transactions t : transactions) {
             if (t.amount < 0) {
                 System.out.println(t);
