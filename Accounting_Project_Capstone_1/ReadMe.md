@@ -11,10 +11,17 @@ This application will read from and write to the transaction file to help users 
 * This class is responsible for handling all file and time-related operations for the ledger system. It performs the following functions:
 
 Read from File: Reads and displays transaction data from the transactions.csv file directly to the terminal.
+
 Write to File: Writes new transaction entries (deposits or payments) to the transactions.csv file.
+
 Timestamp Entries: Automatically captures the current date and time when a new transaction is entered and includes it in the file.
 
 * The Ledger class manages and displays financial transactions from a CSV file. It provides a home menu interface for viewing deposits, payments, and vendor-based reports. It reads transaction data from transactions.csv on initialization and filters entries based on user input.
 * Finally, a Main class that contains that displays Entering a date, description, vendor, amount, greetings and a closing text when the code is done running.
 
 # Screenshots 📸
+![StartScreen.png](Screenshots/StartScreen.png)
+
+This is that 1st thing you see when you run this app it displays the current time, asks you for the date (YYYY-MM-DD), 
+Enter the Description (What is the item user purchased), Add the Vendor, and lastly Enter the Amount. Once the transaction is complete the message Transaction Added! will appear.
+
