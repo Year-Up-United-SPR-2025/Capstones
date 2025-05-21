@@ -1,2 +1,2 @@
 # Capstones
-Year Up Pluralsight Spring 2025 Capstones 
+As a participant in Year Up United, the Pluralsight capstone projects are designed to help me apply the tech skills I’ve learned in a real-world context. Through the partnership between Pluralsight and Year Up, I can access a wide range of self-paced courses and learning paths that build my technical expertise. The capstone experience allows me to put that knowledge into practice by working on projects similar to what I’d encounter in a tech career, helping me prepare for internships and future job opportunities. This hands-on learning shows employers what I’m capable of and strengthens my readiness to succeed professionally.
