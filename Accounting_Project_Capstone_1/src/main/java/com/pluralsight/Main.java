@@ -51,7 +51,7 @@ public class Main {
                     Exit_Handler exitHandler = new Exit_Handler(scanner);
                     exitHandler.waitForExit();
                 } else {
-                    // Show all transactions and go to home screen
+                    // Show all transactions and go home screen
                     Reader_Writer_Time.readDeposits();
                     Ledger ledger = new Ledger();
                     ledger.showHome();
