@@ -57,3 +57,8 @@ Using h or H to make sure your on the home screen:
 Finally, e or E to x or X to exit app:
 
 ![Close.png](Screenshots/Close.png)
+
+# Interesting piece of Code
+![carbon.png](Screenshots/carbon.png)
+
+I thought that this was an interesting piece of code because thanks to this I was able to hardcode when time when the entry was made so that way you would not have to add it yourself. 
