@@ -1,8 +1,18 @@
 # About Accounting Program Capstone 1 🧮
-In this project, I built a Java CLI application to track financial transactions for either business or personal use.
-It will store all transactions in a file named transactions.csv, with each transaction saved as a single line in the file. 
-It will ensure that each line includes important details such as the date, time, description, vendor, and amount. 
-This application will read from and write to the transaction file to help users manage financial data efficiently.
+In this project, I built a Java CLI application to track financial transactions for either business or personal use. The application stores all transactions in a file named transactions.csv, with each transaction saved as a single line containing important details: date, time, description, vendor, and amount.
+I developed this project using IntelliJ, which provided robust features like real-time code suggestions, file management, and integrated terminal support, making development smoother and more efficient.
+
+The application leverages several Java classes to perform its core functions:
+
+* import java.time.LocalTime; and import java.time.format.DateTimeFormatter; were used to capture and format the time each transaction was recorded.
+
+* import java.util.Scanner; enabled user interaction through the command-line interface.
+
+* import java.io.BufferedReader;, import java.io.FileReader;, and import java.io.FileWriter; were essential for reading from and writing to the transactions.csv file.
+
+* import java.io.IOException; helped handle file I/O exceptions.
+
+Overall, this application reads from and writes to the transaction file to help users record, store, and review financial data efficiently through a clean, text-based interface.
 
 # Roadmap 🚧
 1. I looked through the documentation and Created the classes that I needed for my program to work:
@@ -61,4 +71,7 @@ Finally, e or E to x or X to exit app:
 # Interesting piece of Code
 ![carbon.png](Screenshots/carbon.png)
 
-I thought that this was an interesting piece of code because thanks to this I was able to hardcode when time when the entry was made so that way you would not have to add it yourself. 
+I thought that this was an interesting piece of code because thanks to this I was able to hardcode when time when the entry was made so that way you would not have to add it yourself.
+
+# Special Thanks 
+Thank you to one of my teammates who helped me find a good Readme creator called https://readme.so/ to help make this readme template, and using https://carbon.now.sh/ to create the screenshots above, and to my professor who caught little issues like my name conventions and little mistakes that I missed when making this project.
