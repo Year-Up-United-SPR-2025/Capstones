@@ -39,16 +39,21 @@ After that you will see the home screen to show your options:
 
 
 As shone here you can press D or d to get deposits:
+
 ![Deposits .png](Screenshots/Deposits%20.png)
 
 Pressing p or P to get payments:
+
 ![Payments.png](Screenshots/Payments.png)
 
 Using r or R you can pull up specific transactions:
+
 ![Reports.png](Screenshots/Reports.png)
 
 Using h or H to make sure your on the home screen:
+
 ![HomeReload.png](Screenshots/HomeReload.png)
 
 Finally, e or E to x or X to exit app:
+
 ![Close.png](Screenshots/Close.png)
