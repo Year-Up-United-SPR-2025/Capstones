@@ -149,10 +149,10 @@ public class One_Heck_Of_A_Sandwich_Interface {
                                     double total) {
         try {
             String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd-HHmmss"));
-            String filename = "receipts/" + timestamp + ".txt";
+            String filename = "One_Heck_of_A_Receipts" + timestamp + ".txt";
 
             FileWriter writer = new FileWriter(filename);
-            writer.write("=== Sandwich Shop Receipt ===\n");
+            writer.write("=== One Heck of A Receipt ===\n");
 
             for (One_Heck_Of_Sandwich_A_Class s : sandwiches) {
                 writer.write(s.toString() + "\n\n");
