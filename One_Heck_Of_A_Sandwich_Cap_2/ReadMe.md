@@ -9,7 +9,6 @@ The development starts with a class flowchart to guide the architecture, which w
 Although the diagram appears a bit chaotic, I used color-coded arrows to clearly indicate which classes and code belong to each package, helping me understand how everything works together.
 3. I created the necessary classes by following the structure outlined in my diagram and then organized them into separate packages. This approach helps keep the codebase clean, modular, and easier to manage as the project grows.
 4. I added the required enum types in the Sandwich_Enums package to standardize and manage the fixed values referenced across my other classes:
-
 * In Heck_Bread_Types I created the four Variables WHITE, WHEAT, RYE, and WRAP
 * In Heck_Drink_Sizes I created the Variables SMALL with the price being 2.00, MEDIUM with the price being 2.50 and Large the price being 3.00.
 * In Heck_Toppings_Type I have the variables REGULAR, MEAT, and CHEESE.
@@ -18,6 +17,8 @@ SMALL is priced at 2.00
 MEDIUM at 2.50
 LARGE at 3.00
 I also provided a constructor that accepts the following parameters: double basePrice, double meatPrice, double extraMeatPrice, double cheesePrice, and double extraCheesePrice, along with getter methods for each of these fields.
+
+5. Went into my Heck_Toppings class and 
 
 # FlowChart 📊🥪
 ![One Heck of a Board.jpg](UML%27s/One%20Heck%20of%20a%20Board.jpg)
