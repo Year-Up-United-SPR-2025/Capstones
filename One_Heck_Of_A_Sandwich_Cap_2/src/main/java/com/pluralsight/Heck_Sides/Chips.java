@@ -4,9 +4,13 @@ import com.pluralsight.Sandwich_Emuns.ChipsType;
 
 public class Chips {
     private ChipsType type;
+    private String flavor;
 
     public Chips(ChipsType type) {
         this.type = type;
+    }
+
+    public Chips(String s) {
     }
 
     public ChipsType getType() {
