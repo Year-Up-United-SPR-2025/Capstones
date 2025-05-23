@@ -1,4 +1,7 @@
 package com.pluralsight.Sandwich_Emus;
 
-public class Heck_Toppings_Type {
+public enum Heck_Toppings_Type {
+    REGULAR,
+    MEAT,
+    CHEESE
 }

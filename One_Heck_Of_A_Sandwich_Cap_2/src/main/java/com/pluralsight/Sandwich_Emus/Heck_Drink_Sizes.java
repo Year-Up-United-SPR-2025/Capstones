@@ -1,4 +1,7 @@
 package com.pluralsight.Sandwich_Emus;
 
-public class Heck_Drink_Sizes {
+public enum Heck_Drink_Sizes {
+    SMALL,
+    MEDIUM,
+    LARGE
 }

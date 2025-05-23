@@ -1,4 +1,8 @@
 package com.pluralsight.Sandwich_Emus;
 
-public class Heck_Bread_Types {
+public enum Heck_Bread_Types {
+    WHITE,
+    WHEAT,
+    RYE,
+    WRAP
 }
