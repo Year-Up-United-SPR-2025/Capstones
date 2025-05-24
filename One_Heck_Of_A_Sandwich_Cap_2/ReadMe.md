@@ -11,3 +11,8 @@ Although the diagram appears a bit chaotic, I used color-coded arrows to clearly
 
 # FlowChart 📊🥪
 ![One Heck of A FlowChart.jpg](UML%27s/One%20Heck%20of%20A%20FlowChart.jpg)
+
+# References 
+https://github.com/Year-Up-United-SPR-2025/Capstones/blob/main/One_Heck_Of_A_Sandwich_Cap_2/resources/resorces.txt
+
+This project wouldn't have been possible without the help of these references.
