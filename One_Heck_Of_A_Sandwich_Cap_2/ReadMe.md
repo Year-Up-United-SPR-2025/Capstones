@@ -7,6 +7,7 @@ The development starts with a class flowchart to guide the architecture, which w
 1. I started by thoroughly reviewing the project documentation to determine which classes would be needed for the application.
 2. Then, I created a flowchart using Draw.io to visualize how the system components interact. 
 Although the diagram appears a bit chaotic, I used color-coded arrows to clearly indicate which classes and code belong to each package, helping me understand how everything works together.
+3. First I created a Package named 
 
 
 # FlowChart 📊🥪
