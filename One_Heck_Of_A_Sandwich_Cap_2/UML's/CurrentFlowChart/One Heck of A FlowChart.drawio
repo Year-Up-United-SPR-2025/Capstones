@@ -201,6 +201,12 @@
         <mxCell id="ZX5XB9pRJ0hzWBvYxlUa-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=40;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZX5XB9pRJ0hzWBvYxlUa-4" target="3V-Jaaxt2Y7fFEWC-3_t-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="KTw-CYqoI6luh9OEE64T-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KTw-CYqoI6luh9OEE64T-1" target="3V-Jaaxt2Y7fFEWC-3_t-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KTw-CYqoI6luh9OEE64T-1" value="CaseColors" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E6E6E6);" vertex="1" parent="1">
+          <mxGeometry x="-840" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
