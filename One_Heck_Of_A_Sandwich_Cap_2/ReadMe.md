@@ -42,7 +42,16 @@ This is the flowchart I created to make sure that I do not get lost making this 
 # Screenshots 📹
 ![HomeScreen.png](Screenshots/HomeScreen.png)'
 
-This is my homescreen which contains a greeting and two options and entry line for you to type in one of two options.
+This is my homescreen which contains a greeting and two options and entry line for you to type in one of two options. 
+
+![OrderMenu.png](Screenshots/OrderMenu.png) 
+
+As you press 1 you see a quick message of Starting new order... and the see the Order Menu which uses five numbers 0-4 (not in that order but ok):
+1) Add Sandwich 🥪
+2) Add Drink 🍹
+3) Add Chips
+4) Checkout ✅
+0) Cancel Order 🪦
 
 
 # References 🧭
