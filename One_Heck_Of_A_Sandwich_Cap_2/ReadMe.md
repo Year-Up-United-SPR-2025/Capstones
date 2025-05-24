@@ -40,12 +40,12 @@ Although the diagram appears a bit chaotic, I used color-coded arrows to clearly
 This is the flowchart I created to make sure that I do not get lost making this project. I also have a previous version here to compare between the two: https://github.com/Year-Up-United-SPR-2025/Capstones/blob/main/One_Heck_Of_A_Sandwich_Cap_2/UML's/OldFlowChart/One%20Heck%20of%20a%20Board.jpg
 
 # Video and Screenshot of How My Code Works 📹🥪
-
-
+[![Screenshot 2025-05-24 174613](https://github.com/user-attachments/assets/6e37274b-93a3-4ca3-8084-07621668a195)](https://www.youtube.com/watch?v=GupQ48TVwSs)
 
 Once you are done viewing my code, you can see it creates the receipt in the receipts directory as shown here:
+![Screenshot of recepit being made in directory.png](Screenshots%20and%20Recording/Screenshot%20of%20recepit%20being%20made%20in%20directory.png)
 
-[![Screenshot 2025-05-24 174613](https://github.com/user-attachments/assets/6e37274b-93a3-4ca3-8084-07621668a195)](https://www.youtube.com/watch?v=GupQ48TVwSs)
+
 
 
 # Interesting Piece of Code 🥪👀
