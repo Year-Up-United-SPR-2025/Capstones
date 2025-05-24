@@ -11,3 +11,6 @@ https://docs.oracle.com/javase/8/docs/api/java/sql/Timestamp.html
 https://docs.oracle.com/javase/8/docs/api/index.html?java/sql/Timestamp.html
 https://stackoverflow.com/questions/23068676/how-to-get-current-timestamp-in-string-format-in-java-yyyy-mm-dd-hh-mm-ss
 https://www.geeksforgeeks.org/java-program-to-convert-date-to-timestamp/
+
+//Writing file
+https://www.geeksforgeeks.org/file-class-in-java/
