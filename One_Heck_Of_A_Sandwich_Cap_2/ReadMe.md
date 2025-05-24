@@ -11,7 +11,11 @@ Although the diagram appears a bit chaotic, I used color-coded arrows to clearly
 * BreadType, which contains the following constants: WHITE, WHEAT, RYE, and WRAP. These represent the different types of bread available for customers at the sandwich shop.
 * DrinkSize, which contains the following constants: SMALL, MEDIUM, LARGE. These represent the different types of drink sizes available for customers at the sandwich shop.  
 * SandwichSize, which contains the following constants: FOUR_INCH, EIGHT_INCH, TWELVE_INCH. These represent the different lengths of sandwiches available for customers at the sandwich shop.
-
+4. I created a package named Sides, this package contains two classes:
+* Chips which represents a chips side item in the sandwich shop, storing the chip type as a string. It provides methods to return a fixed price of $1.50 and a description of the chips including their type and price.
+* Drink  class models a drink item with a specific size and flavor using the DrinkSize enum. It includes methods to determine the price based on size and to return a formatted description of the drink with its size, flavor, and price.
+5. Created my Heck_Toppings package with contains the following classes:
+* 
 
 # FlowChart 📊🥪
 ![One Heck of A FlowChart.jpg](UML%27s/One%20Heck%20of%20A%20FlowChart.jpg)
