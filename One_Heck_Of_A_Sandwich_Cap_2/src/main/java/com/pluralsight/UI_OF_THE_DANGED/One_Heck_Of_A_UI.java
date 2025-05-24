@@ -20,7 +20,7 @@ public class One_Heck_Of_A_UI {
         boolean running = true;
 
         while (running) {
-            System.out.println(ColorCodes.BRIGHT_YELLOW + ColorCodes.BOLD + "==== Welcome to One Heck Of A Sandwich ====" + ColorCodes.RESET);
+            System.out.println(ColorCodes.BRIGHT_YELLOW + ColorCodes.BOLD + "==== Welcome to One Heck Of A Sandwich 🥵 ====" + ColorCodes.RESET);
             System.out.println(ColorCodes.BRIGHT_GREEN + "1) New Order" + ColorCodes.RESET);
             System.out.println(ColorCodes.BRIGHT_RED + "0) Exit" + ColorCodes.RESET);
             System.out.print(ColorCodes.BRIGHT_CYAN + "Choose an option: " + ColorCodes.RESET);
@@ -49,7 +49,7 @@ public class One_Heck_Of_A_UI {
         boolean ordering = true;
 
         while (ordering) {
-            System.out.println(ColorCodes.BRIGHT_BLUE + ColorCodes.BOLD + "\n=== Order Menu ===" + ColorCodes.RESET);
+            System.out.println(ColorCodes.BRIGHT_BLUE + ColorCodes.BOLD + "\n=== Order Menu 🐦‍🔥 ===" + ColorCodes.RESET);
             System.out.println(ColorCodes.YELLOW + "1) Add Sandwich 🥪" + ColorCodes.RESET);
             System.out.println(ColorCodes.CYAN + "2) Add Drink 🍹" + ColorCodes.RESET);
             System.out.println(ColorCodes.GREEN + "3) Add Chips " + ColorCodes.RESET);
@@ -211,7 +211,7 @@ public class One_Heck_Of_A_UI {
     }
 
     private static Drink buildDrink() {
-        System.out.println(ColorCodes.BRIGHT_CYAN + ColorCodes.BOLD + "\n=== Add a Drink ===" + ColorCodes.RESET);
+        System.out.println(ColorCodes.BRIGHT_CYAN + ColorCodes.BOLD + "\n=== Add a Drink 🍾 ===" + ColorCodes.RESET);
         System.out.println(ColorCodes.BRIGHT_WHITE + "Choose Drink Size: " + ColorCodes.GREEN + "1) Small  " + ColorCodes.YELLOW + "2) Medium  " + ColorCodes.RED + "3) Large" + ColorCodes.RESET);
         DrinkSize size = switch (scanner.nextLine()) {
             case "1" -> {
