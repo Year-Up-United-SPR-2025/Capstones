@@ -14,10 +14,10 @@ public class ReceiptWriter {
         try {
             //makes a directory named receipts
             File folder = new File("receipts");
-            //if it exists it just skips and goes to making a receipt 
+            //if it exists it just skips and goes to making a receipt
             if (!folder.exists()) folder.mkdir();
 
-            String filename = "receipts/" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd-HHmmss")) + ".txt";
+            String filename = "receipts/" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("  yyyyMMdd-HHmmss")) + ".txt";
             FileWriter writer = new FileWriter(filename);
             writer.write(order.generateReceipt());
             writer.close();
