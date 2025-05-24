@@ -16,6 +16,7 @@ Although the diagram appears a bit chaotic, I used color-coded arrows to clearly
 SMALL is priced at 2.00
 MEDIUM at 2.50
 LARGE at 3.00
+* In Heck_Signature class this is the extra and has the Variables BLT, and PHILLY_CHEESESTEAK.
 I also provided a constructor that accepts the following parameters: double basePrice, double meatPrice, double extraMeatPrice, double cheesePrice, and double extraCheesePrice, along with getter methods for each of these fields.
 
 5. Went into my Heck_Toppings class and 
