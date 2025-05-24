@@ -19,7 +19,7 @@ LARGE at 3.00
 * In Heck_Signature class this is the extra and has the Variables BLT, and PHILLY_CHEESESTEAK.
 I also provided a constructor that accepts the following parameters: double basePrice, double meatPrice, double extraMeatPrice, double cheesePrice, and double extraCheesePrice, along with getter methods for each of these fields.
 
-5. Went into my Heck_Toppings class and 
+5. Went into my Heck_Toppings class and created the variables String name, Heck_Toppings_Type type, and a boolean isExtra
 
 # FlowChart 📊🥪
 ![One Heck of a Board.jpg](UML%27s/One%20Heck%20of%20a%20Board.jpg)
