@@ -41,7 +41,7 @@ public class One_Heck_Of_A_UI {
         }
 
         System.out.println(ColorCodes.BRIGHT_PURPLE + ColorCodes.BOLD + "Thank you for using One Heck Of A Sandwich! 🙇🏾" + ColorCodes.RESET +
-                " Have one Heck of a Day Now 😈");
+               ColorCodes.BRIGHT_CYAN + ColorCodes.BOLD + " Have one Heck of a Day Now 😈" + ColorCodes.RESET);
     }
 
     private static void startOrder() {
