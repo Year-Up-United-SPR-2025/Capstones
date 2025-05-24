@@ -1,3 +1,4 @@
 https://www.w3schools.com/java/java_enums.asp
 https://www.geeksforgeeks.org/enum-in-java/
 https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html
+https://www.w3schools.com/java/ref_keyword_protected.asp
