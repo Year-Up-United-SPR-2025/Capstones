@@ -12,12 +12,12 @@ import java.time.LocalDateTime;
 public class ReceiptWriter {
     public static void saveReceipt(Heck_Order order) {
         try {
-            //makes a directory named receipts
             File folder = new File("receipts");
-            //if it exists it just skips and goes to making a receipt
             if (!folder.exists()) folder.mkdir();
 
-            String filename = "receipts/" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("  yyyyMMdd-HHmmss")) + ".txt";
+            String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd-hhmmssa"));
+            String filename = "receipts/" + timestamp + ".txt";
+
             FileWriter writer = new FileWriter(filename);
             writer.write(order.generateReceipt());
             writer.close();
@@ -28,4 +28,5 @@ public class ReceiptWriter {
         }
     }
 }
+
 

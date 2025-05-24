@@ -45,6 +45,13 @@ This is the flowchart I created to make sure that I do not get lost making this 
 Once you are done viewing my code you can see it creates the recipt in the receipts directory as shone here:
 ![Screenshot of recepit being made in directory.png](Screenshots%20and%20Recording/Screenshot%20of%20recepit%20being%20made%20in%20directory.png)
 
+# Interesting Piece of Code
+![Capstone 2 IC.png](Screenshots%20and%20Recording/Capstone%202%20IC.png)
+
+This part of the code was especially interesting to me because it checks if the receipts directory exists and creates it if it doesn't. 
+If the directory is already there, the code simply proceeds to generate and save the receipt. I found this fun and rewarding to figure out, especially because I’ve seen similar patterns in other people's code before. 
+I challenged myself to implement it in my own project to learn how to write more reliable and polished Java code.
+
 # References 🧭
 https://github.com/Year-Up-United-SPR-2025/Capstones/blob/main/One_Heck_Of_A_Sandwich_Cap_2/resources/resorces.txt
 
