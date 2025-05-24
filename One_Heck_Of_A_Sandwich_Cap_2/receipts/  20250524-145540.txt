@@ -1,0 +1,29 @@
+==== One Heck Of A Sandwich Receipt ==== 🧾
+Time: 2025-05-24T14:54:11.784658900
+
+Sandwich:
+EIGHT_INCH WHEAT sandwich (Toasted)
+Toppings:
+- Ham (Extra)
+- Salami (Extra)
+- Steak
+- Provolone
+- Cheddar (Extra)
+- Peppers
+- Onions
+- Cucumbers
+- Lettuce
+- Jalapeños
+- Mustard
+- Mustard
+- Mustard
+- Ketchup
+- Ketchup
+- Ketchup
+Total Price: $18.60
+
+Drink: MEDIUM Orange - $2.5
+Chips: Lays Chips - $1.50
+
+TOTAL: $22.60
+=========================================

@@ -39,19 +39,9 @@ Although the diagram appears a bit chaotic, I used color-coded arrows to clearly
 
 This is the flowchart I created to make sure that I do not get lost making this project. I also have a previous version here to compare between the two: https://github.com/Year-Up-United-SPR-2025/Capstones/blob/main/One_Heck_Of_A_Sandwich_Cap_2/UML's/OldFlowChart/One%20Heck%20of%20a%20Board.jpg
 
-# Screenshots 📹
-![HomeScreen.png](Screenshots/HomeScreen.png)'
+# Video of how My code works 📹
 
-This is my homescreen which contains a greeting and two options and entry line for you to type in one of two options. 
 
-![OrderMenu.png](Screenshots/OrderMenu.png) 
-
-As you press 1 you see a quick message of Starting new order... and the see the Order Menu which uses five numbers 0-4 (not in that order but ok):
-1) Add Sandwich 🥪
-2) Add Drink 🍹
-3) Add Chips
-4) Checkout ✅
-0) Cancel Order 🪦
 
 
 # References 🧭
