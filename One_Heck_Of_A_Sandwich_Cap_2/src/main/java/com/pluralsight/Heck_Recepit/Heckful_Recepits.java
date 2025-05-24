@@ -9,7 +9,7 @@ import java.time.format.DateTimeFormatter;
 public class Heckful_Recepits {
     public static void saveReceipt(Heck_Order order) {
         String timestamp = order.getTimestamp().format(DateTimeFormatter.ofPattern("yyyyMMdd-HHmmss"));
-        String filename = "One_Heck_of_A_Receipts" + timestamp + ".txt";
+        String filename = "One_Heck_of_A_Receipts " + timestamp + " .txt";
 
         try (FileWriter writer = new FileWriter("receipts/" + filename)) {
             writer.write(order.generateReceipt());

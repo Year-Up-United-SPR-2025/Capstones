@@ -1,4 +1,13 @@
+//For Enums
 https://www.w3schools.com/java/java_enums.asp
 https://www.geeksforgeeks.org/enum-in-java/
 https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html
+
+//For Protected Classes
 https://www.w3schools.com/java/ref_keyword_protected.asp
+
+//TimeStamps
+https://docs.oracle.com/javase/8/docs/api/java/sql/Timestamp.html
+https://docs.oracle.com/javase/8/docs/api/index.html?java/sql/Timestamp.html
+https://stackoverflow.com/questions/23068676/how-to-get-current-timestamp-in-string-format-in-java-yyyy-mm-dd-hh-mm-ss
+https://www.geeksforgeeks.org/java-program-to-convert-date-to-timestamp/
