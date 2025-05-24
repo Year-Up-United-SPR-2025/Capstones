@@ -45,7 +45,7 @@ This is the flowchart I created to make sure that I do not get lost making this 
 Once you are done viewing my code you can see it creates the recipt in the receipts directory as shone here:
 ![Screenshot of recepit being made in directory.png](Screenshots%20and%20Recording/Screenshot%20of%20recepit%20being%20made%20in%20directory.png)
 
-# Interesting Piece of Code
+# Interesting Piece of Code 👀
 ![Capstone 2 IC.png](Screenshots%20and%20Recording/Capstone%202%20IC.png)
 
 This part of the code was especially interesting to me because it checks if the receipts directory exists and creates it if it doesn't. 
