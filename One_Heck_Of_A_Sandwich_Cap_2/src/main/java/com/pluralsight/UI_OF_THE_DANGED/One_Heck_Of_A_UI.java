@@ -28,9 +28,11 @@ public class One_Heck_Of_A_UI {
 
             switch (choice) {
                 case "1":
+                    System.out.println(CaseColors.ANSI_GREEN + "Starting new order..." + CaseColors.ANSI_RESET);
                     startOrder();
                     break;
                 case "0":
+                    System.out.println(CaseColors.ANSI_RED + "Exiting application..." + CaseColors.ANSI_RESET);
                     running = false;
                     break;
                 default:
@@ -58,15 +60,19 @@ public class One_Heck_Of_A_UI {
 
             switch (option) {
                 case "1":
+                    System.out.println(CaseColors.ANSI_YELLOW + "Building sandwich..." + CaseColors.ANSI_RESET);
                     order.addSandwich(buildSandwich());
                     break;
                 case "2":
+                    System.out.println(CaseColors.ANSI_BLUE + "Adding drink..." + CaseColors.ANSI_RESET);
                     order.addDrink(buildDrink());
                     break;
                 case "3":
+                    System.out.println(CaseColors.ANSI_GREEN + "Adding chips..." + CaseColors.ANSI_RESET);
                     order.addChips(buildChips());
                     break;
                 case "4":
+                    System.out.println(CaseColors.ANSI_YELLOW + "Processing checkout..." + CaseColors.ANSI_RESET);
                     System.out.println(ColorCodes.BRIGHT_WHITE + ColorCodes.BOLD + "\n" + order.generateReceipt() + ColorCodes.RESET);
                     System.out.print(ColorCodes.BRIGHT_YELLOW + ColorCodes.BOLD + "Confirm order? (y/n): 🤔" + ColorCodes.RESET);
                     if (scanner.nextLine().equalsIgnoreCase("y")) {
@@ -76,7 +82,8 @@ public class One_Heck_Of_A_UI {
                     }
                     break;
                 case "0":
-                    System.out.println(ColorCodes.BRIGHT_RED + "Order canceled." + ColorCodes.RESET);
+                    System.out.println(CaseColors.ANSI_RED + "Canceling order..." + CaseColors.ANSI_RESET);
+                    System.out.println(ColorCodes.BRIGHT_RED + "❌ Order canceled." + ColorCodes.RESET);
                     ordering = false;
                     break;
                 default:
@@ -86,23 +93,50 @@ public class One_Heck_Of_A_UI {
     }
 
     private static Heckful_Sandwich buildSandwich() {
-        System.out.println(ColorCodes.BRIGHT_YELLOW + ColorCodes.BOLD + "\n=== Build Your Hellish Sandwich ===" + ColorCodes.RESET);
+        System.out.println(ColorCodes.BRIGHT_YELLOW + ColorCodes.BOLD + "\n=== Build Your Hellish Sandwich 😋===" + ColorCodes.RESET);
 
         System.out.println(ColorCodes.BRIGHT_WHITE + "Choose size: " + ColorCodes.GREEN + "1) 4\"  " + ColorCodes.BLUE + "2) 8\"  " + ColorCodes.PURPLE + "3) 12\"" + ColorCodes.RESET);
         SandwichSize size = switch (scanner.nextLine()) {
-            case "1" -> SandwichSize.FOUR_INCH;
-            case "2" -> SandwichSize.EIGHT_INCH;
-            case "3" -> SandwichSize.TWELVE_INCH;
-            default -> SandwichSize.EIGHT_INCH;
+            case "1" -> {
+                System.out.println(CaseColors.ANSI_GREEN + "Selected 4\" sandwich" + CaseColors.ANSI_RESET);
+                yield SandwichSize.FOUR_INCH;
+            }
+            case "2" -> {
+                System.out.println(CaseColors.ANSI_BLUE + "Selected 8\" sandwich" + CaseColors.ANSI_RESET);
+                yield SandwichSize.EIGHT_INCH;
+            }
+            case "3" -> {
+                System.out.println(CaseColors.ANSI_YELLOW + "Selected 12\" sandwich" + CaseColors.ANSI_RESET);
+                yield SandwichSize.TWELVE_INCH;
+            }
+            default -> {
+                System.out.println(CaseColors.ANSI_BLUE + "Defaulted to 8\" sandwich" + CaseColors.ANSI_RESET);
+                yield SandwichSize.EIGHT_INCH;
+            }
         };
 
         System.out.println(ColorCodes.BRIGHT_WHITE + "Choose bread: " + ColorCodes.YELLOW + "1) White  " + ColorCodes.RED + "2) Wheat  " + ColorCodes.GREEN + "3) Rye  " + ColorCodes.CYAN + "4) Wrap" + ColorCodes.RESET);
         BreadType bread = switch (scanner.nextLine()) {
-            case "1" -> BreadType.WHITE;
-            case "2" -> BreadType.WHEAT;
-            case "3" -> BreadType.RYE;
-            case "4" -> BreadType.WRAP;
-            default -> BreadType.WHITE;
+            case "1" -> {
+                System.out.println(CaseColors.ANSI_YELLOW + "Selected White bread" + CaseColors.ANSI_RESET);
+                yield BreadType.WHITE;
+            }
+            case "2" -> {
+                System.out.println(CaseColors.ANSI_RED + "Selected Wheat bread" + CaseColors.ANSI_RESET);
+                yield BreadType.WHEAT;
+            }
+            case "3" -> {
+                System.out.println(CaseColors.ANSI_GREEN + "Selected Rye bread" + CaseColors.ANSI_RESET);
+                yield BreadType.RYE;
+            }
+            case "4" -> {
+                System.out.println(CaseColors.ANSI_BLUE + "Selected Wrap" + CaseColors.ANSI_RESET);
+                yield BreadType.WRAP;
+            }
+            default -> {
+                System.out.println(CaseColors.ANSI_YELLOW + "Defaulted to White bread" + CaseColors.ANSI_RESET);
+                yield BreadType.WHITE;
+            }
         };
 
         System.out.print(ColorCodes.BRIGHT_CYAN + "Toasted? (y/n): " + ColorCodes.RESET);
@@ -180,10 +214,22 @@ public class One_Heck_Of_A_UI {
         System.out.println(ColorCodes.BRIGHT_CYAN + ColorCodes.BOLD + "\n=== Add a Drink ===" + ColorCodes.RESET);
         System.out.println(ColorCodes.BRIGHT_WHITE + "Choose Drink Size: " + ColorCodes.GREEN + "1) Small  " + ColorCodes.YELLOW + "2) Medium  " + ColorCodes.RED + "3) Large" + ColorCodes.RESET);
         DrinkSize size = switch (scanner.nextLine()) {
-            case "1" -> DrinkSize.SMALL;
-            case "2" -> DrinkSize.MEDIUM;
-            case "3" -> DrinkSize.LARGE;
-            default -> DrinkSize.SMALL;
+            case "1" -> {
+                System.out.println(CaseColors.ANSI_GREEN + "Selected Small drink" + CaseColors.ANSI_RESET);
+                yield DrinkSize.SMALL;
+            }
+            case "2" -> {
+                System.out.println(CaseColors.ANSI_YELLOW + "Selected Medium drink" + CaseColors.ANSI_RESET);
+                yield DrinkSize.MEDIUM;
+            }
+            case "3" -> {
+                System.out.println(CaseColors.ANSI_RED + "Selected Large drink" + CaseColors.ANSI_RESET);
+                yield DrinkSize.LARGE;
+            }
+            default -> {
+                System.out.println(CaseColors.ANSI_GREEN + "Defaulted to Small drink" + CaseColors.ANSI_RESET);
+                yield DrinkSize.SMALL;
+            }
         };
 
         System.out.print(ColorCodes.BRIGHT_PURPLE + "Enter drink flavor: " + ColorCodes.RESET);
