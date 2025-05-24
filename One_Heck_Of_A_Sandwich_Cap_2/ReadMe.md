@@ -31,7 +31,7 @@ Although the diagram appears a bit chaotic, I used color-coded arrows to clearly
 10. Next package I created is named UI_OF_THE_DANGED which contains:
 * One_Heck_Of_A_UI which provides a colorful command-line user interface for a sandwich ordering system, featuring a main menu loop and order management with options to add sandwiches, drinks, and chips to an order. The interface uses extensive color coding and emojis throughout the user experience, guiding customers through sandwich customization (size, bread, toppings), drink selection, chip choices, and final checkout with receipt generation and file saving.
 * CaseColors which provide the color for the case codes and ColorCodes which provies the color for the terminal when you are running/building my application.
-11. Finally my Main class which is named One_Heck_Of_A_Main which run the UI from One_Heck_Of_A_UI.
+11. Finally, my Main class which is named One_Heck_Of_A_Main which run the UI from One_Heck_Of_A_UI.
 
 
 # FlowChart 📊🥪
