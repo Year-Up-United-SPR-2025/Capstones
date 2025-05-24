@@ -15,7 +15,15 @@ Although the diagram appears a bit chaotic, I used color-coded arrows to clearly
 * Chips which represents a chips side item in the sandwich shop, storing the chip type as a string. It provides methods to return a fixed price of $1.50 and a description of the chips including their type and price.
 * Drink  class models a drink item with a specific size and flavor using the DrinkSize enum. It includes methods to determine the price based on size and to return a formatted description of the drink with its size, flavor, and price.
 5. Created my Heck_Toppings package with contains the following classes:
-* 
+* Heckful_Toppings class is an abstract base class representing a sandwich topping, including its name and whether it’s an extra portion. It defines an abstract method getPrice(SandwichSize size) that must be implemented by subclasses to calculate the topping's price based on sandwich size.
+* Heckful_RegularToppings class extends the abstract Heckful_Toppings class and represents standard toppings that are included at no extra cost. Its getPrice method always returns 0.0, regardless of the sandwich size, indicating that these toppings are free.
+* Heckful_PremiumToppings class extends Heckful_Toppings and represents premium sandwich toppings like meats and cheeses. It calculates the topping's price based on the sandwich size and whether the topping is an extra portion, with meats and cheeses having different base and extra costs.
+6. Created the Heck_Signatures package which contains:
+* Hecks_Signature class extends Heckful_Sandwich and represents a predefined signature sandwich with a specific name, size, bread type, and toasted preference. It adds a name field to identify the signature sandwich and provides a getter method for it.
+* BLT_O_Heck class is a specific signature sandwich that extends Hecks_Signature, preconfigured with the name "BLT", an 8-inch toasted white bread base, and a set of predefined premium toppings. It adds bacon, cheddar, lettuce, tomatoes, and ranch as its ingredients using the addTopping method.
+* The Heck_O_Alot_Of_PhillyCheeseSteak class defines a signature sandwich by extending Hecks_Signature, preset with the name "Philly Cheese Steak", 8-inch toasted white bread, and a specific combination of toppings. It includes steak, American cheese, peppers, and mayo using the addTopping method to build the sandwich.
+7. 
+
 
 # FlowChart 📊🥪
 ![One Heck of A FlowChart.jpg](UML%27s/One%20Heck%20of%20A%20FlowChart.jpg)
