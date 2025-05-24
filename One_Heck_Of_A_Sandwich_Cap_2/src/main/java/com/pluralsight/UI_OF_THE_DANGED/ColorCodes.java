@@ -1,4 +1,4 @@
-package com.pluralsight;
+package com.pluralsight.UI_OF_THE_DANGED;
 
 public class ColorCodes
 {

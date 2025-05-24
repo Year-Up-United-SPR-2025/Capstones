@@ -1,0 +1,18 @@
+==== One Heck Of A Sandwich Receipt ====
+Time: 2025-05-24T09:44:25.905062
+
+Sandwich:
+TWELVE_INCH WRAP sandwich
+Toppings:
+- Roast Beef
+- Swiss
+- American (Extra)
+- Provolone
+- Mushrooms
+- Thousand Islands
+Total Price: $19.15
+
+Drink: SMALL Orange - $2.0
+
+TOTAL: $21.15
+=========================================
