@@ -1,0 +1,13 @@
+==== One Heck Of A Sandwich Receipt ==== 🧾
+Time: 2025-05-24T12:36:17.355156400
+
+Sandwich:
+EIGHT_INCH RYE sandwich (Toasted)
+Toppings:
+- Bacon (Extra)
+- Ranch
+Total Price: $10.00
+
+
+TOTAL: $10.00
+=========================================
