@@ -22,7 +22,16 @@ Although the diagram appears a bit chaotic, I used color-coded arrows to clearly
 * Hecks_Signature class extends Heckful_Sandwich and represents a predefined signature sandwich with a specific name, size, bread type, and toasted preference. It adds a name field to identify the signature sandwich and provides a getter method for it.
 * BLT_O_Heck class is a specific signature sandwich that extends Hecks_Signature, preconfigured with the name "BLT", an 8-inch toasted white bread base, and a set of predefined premium toppings. It adds bacon, cheddar, lettuce, tomatoes, and ranch as its ingredients using the addTopping method.
 * The Heck_O_Alot_Of_PhillyCheeseSteak class defines a signature sandwich by extending Hecks_Signature, preset with the name "Philly Cheese Steak", 8-inch toasted white bread, and a specific combination of toppings. It includes steak, American cheese, peppers, and mayo using the addTopping method to build the sandwich.
-7. 
+7. Created a package named One_Heck_of_a_Sandwich_Package which contains:
+* Heckful_Sandwich class represents a customizable sandwich, including its size, bread type, toasted option, and a list of toppings. It provides methods to add toppings, calculate base and total prices (including topping costs), and generate a formatted description of the complete sandwich order.
+8. Created the package named Heckful_Order which contains:
+* Heck_Order class which represents a sandwich shop order that can contain multiple sandwiches, drinks, and chips, with each item stored in separate ArrayLists and automatically timestamped when created. The class provides methods to add items, calculate the total price across all items, and generate a formatted receipt showing all order details and the final cost.
+9. Created a package named Your_Soulful_Receipts witch contains:
+* ReceiptWriter this class  provides a static method to save order receipts as text files to disk. It creates a "receipts" directory if it doesn't exist, then writes the receipt content to a timestamped filename using the current date and time, with basic error handling for file I/O operations.
+10. Next package I created is named UI_OF_THE_DANGED which contains:
+* One_Heck_Of_A_UI which provides a colorful command-line user interface for a sandwich ordering system, featuring a main menu loop and order management with options to add sandwiches, drinks, and chips to an order. The interface uses extensive color coding and emojis throughout the user experience, guiding customers through sandwich customization (size, bread, toppings), drink selection, chip choices, and final checkout with receipt generation and file saving.
+* CaseColors which provide the color for the case codes and ColorCodes which provies the color for the terminal when you are running/building my application.
+11. Finally my Main class which is named One_Heck_Of_A_Main which run the UI from One_Heck_Of_A_UI.
 
 
 # FlowChart 📊🥪

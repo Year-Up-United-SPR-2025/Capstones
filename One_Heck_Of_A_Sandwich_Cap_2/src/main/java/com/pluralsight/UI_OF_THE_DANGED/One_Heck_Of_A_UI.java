@@ -9,7 +9,7 @@ import com.pluralsight.Heckful_Order.Heck_Order;
 import com.pluralsight.One_Heck_of_a_Sandwich_Package.Heckful_Sandwich;
 import com.pluralsight.Sides.Chips;
 import com.pluralsight.Sides.Drink;
-import com.pluralsight.Your_Soulful_Recipts.ReceiptWriter;
+import com.pluralsight.Your_Soulful_Receipts.ReceiptWriter;
 
 import java.util.Scanner;
 

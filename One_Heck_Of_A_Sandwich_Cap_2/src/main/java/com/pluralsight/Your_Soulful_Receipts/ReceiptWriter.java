@@ -1,4 +1,4 @@
-package com.pluralsight.Your_Soulful_Recipts;
+package com.pluralsight.Your_Soulful_Receipts;
 
 import com.pluralsight.Heckful_Order.Heck_Order;
 
