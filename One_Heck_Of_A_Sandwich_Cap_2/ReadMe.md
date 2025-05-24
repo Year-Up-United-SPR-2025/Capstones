@@ -42,7 +42,8 @@ This is the flowchart I created to make sure that I do not get lost making this 
 # Video and Screenshot Of How My code works 📹
 [Recording Of How my code works.mp4](Screenshots%20and%20Recording/Recording%20Of%20How%20my%20code%20works.mp4)
 
-Once you are done viewing my code you can see it creates the recipt in the receipts directory as shone here:
+Once you are done viewing my code you can see it creates the receipt in the receipts directory as shone here:
+
 ![Screenshot of recepit being made in directory.png](Screenshots%20and%20Recording/Screenshot%20of%20recepit%20being%20made%20in%20directory.png)
 
 # Interesting Piece of Code 👀
