@@ -52,7 +52,7 @@ public class One_Heck_Of_A_UI {
             System.out.println(ColorCodes.BRIGHT_BLUE + ColorCodes.BOLD + "\n=== Order Menu 🐦‍🔥 ===" + ColorCodes.RESET);
             System.out.println(ColorCodes.YELLOW + "1) Add Sandwich 🥪" + ColorCodes.RESET);
             System.out.println(ColorCodes.CYAN + "2) Add Drink 🍹" + ColorCodes.RESET);
-            System.out.println(ColorCodes.GREEN + "3) Add Chips " + ColorCodes.RESET);
+            System.out.println(ColorCodes.GREEN + "3) Add Chips 🥔🔪" + ColorCodes.RESET);
             System.out.println(ColorCodes.BRIGHT_GREEN + ColorCodes.BOLD + "4) Checkout ✅" + ColorCodes.RESET);
             System.out.println(ColorCodes.BRIGHT_RED + "0) Cancel Order 🪦" + ColorCodes.RESET);
             System.out.print(ColorCodes.BRIGHT_CYAN + "💬 Choose an option: " + ColorCodes.RESET);
@@ -232,7 +232,7 @@ public class One_Heck_Of_A_UI {
             }
         };
 
-        System.out.print(ColorCodes.BRIGHT_PURPLE + "Enter drink flavor: " + ColorCodes.RESET);
+        System.out.print(ColorCodes.BRIGHT_PURPLE + "Enter drink flavor or Type: " + ColorCodes.RESET);
         String flavor = scanner.nextLine();
 
         System.out.println(ColorCodes.BRIGHT_GREEN + "✓ Added " + size.toString().toLowerCase() + " " + flavor + " drink!" + ColorCodes.RESET);
@@ -240,8 +240,8 @@ public class One_Heck_Of_A_UI {
     }
 
     private static Chips buildChips() {
-        System.out.println(ColorCodes.BRIGHT_GREEN + ColorCodes.BOLD + "\n=== Add Chips ===" + ColorCodes.RESET);
-        System.out.print(ColorCodes.BRIGHT_YELLOW + "Enter chip flavor: " + ColorCodes.RESET);
+        System.out.println(ColorCodes.BRIGHT_GREEN + ColorCodes.BOLD + "\n=== Add Chips 🛢️🥔===" + ColorCodes.RESET);
+        System.out.print(ColorCodes.BRIGHT_YELLOW + "Enter Chips Flavor or Type: " + ColorCodes.RESET);
         String type = scanner.nextLine();
         System.out.println(ColorCodes.BRIGHT_GREEN + "✓ Added " + type + " chips!" + ColorCodes.RESET);
         return new Chips(type);
