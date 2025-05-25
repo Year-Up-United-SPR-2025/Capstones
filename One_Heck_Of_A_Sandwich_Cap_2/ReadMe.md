@@ -42,10 +42,8 @@ This is the flowchart I created to make sure that I do not get lost making this 
 # Video of How My Code Works 📹🥪
 [![Screenshot 2025-05-25 095046](https://github.com/user-attachments/assets/e7863657-f24f-434a-81d9-1c0b1f32f6f1)](https://youtu.be/jGgVNq827WY)
 
-
-
 # Interesting Piece of Code 🥪👀
-![Capstone 2 IC.png](Screenshots%20and%20Recording/Capstone%202%20IC.png)
+![Capstone 2 IC.png](Screenshots/Capstone%202%20IC.png)
 
 This part of the code was especially interesting to me because it checks if the receipts directory exists and creates it if it doesn't. 
 If the directory is already there, the code simply proceeds to generate and save the receipt. I found this fun and rewarding to figure out, especially because I’ve seen similar patterns in other people's code before. 
