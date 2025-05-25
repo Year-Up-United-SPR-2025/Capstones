@@ -159,10 +159,10 @@ public class One_Heck_Of_A_UI {
 
     private static void addToppings(Heckful_Sandwich sandwich, String type, boolean isPremium) {
         String[] options = switch (type) {
-            case "meat" -> new String[]{"Steak", "Ham", "Salami", "Roast Beef", "Chicken", "Bacon"};
-            case "cheese" -> new String[]{"American", "Provolone", "Cheddar", "Swiss"};
-            case "regular" -> new String[]{"Lettuce", "Peppers", "Onions", "Tomatoes", "Jalapeños", "Cucumbers", "Pickles", "Guacamole", "Mushrooms"};
-            case "sauce" -> new String[]{"Mayo", "Mustard", "Ketchup", "Ranch", "Thousand Islands", "Vinaigrette"};
+            case "meat" -> new String[]{"🥩 Steak", "🍖 Ham", "🍕 Salami", "🥩 Roast Beef", "🍗 Chicken", "🥓 Bacon"};
+            case "cheese" -> new String[]{"🧀 American", "🧀 Provolone", "🧀 Cheddar", "🧀 Swiss"};
+            case "regular" -> new String[]{"🥬 Lettuce", "🌶️ Peppers", "🧅 Onions", "🍅 Tomatoes", "🌶️ Jalapeños", "🥒 Cucumbers", "🥒 Pickles", "🥑 Guacamole", "🍄 Mushrooms"};
+            case "sauce" -> new String[]{"🥪 Mayo", "🌭 Mustard", "🍔 Ketchup", "🥗 Ranch", "🧡 Thousand Islands", "🥗 Vinaigrette"};
             default -> new String[]{};
         };
 
