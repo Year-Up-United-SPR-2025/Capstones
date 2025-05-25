@@ -77,13 +77,13 @@ public class One_Heck_Of_A_UI {
                     System.out.print(ColorCodes.BRIGHT_YELLOW + ColorCodes.BOLD + "Confirm order? (y/n): 🤔" + ColorCodes.RESET);
                     if (scanner.nextLine().equalsIgnoreCase("y")) {
                         ReceiptWriter.saveReceipt(order);
-                        System.out.println(ColorCodes.BRIGHT_GREEN + ColorCodes.BOLD + "Order confirmed and saved! 👻" + ColorCodes.RESET);
+                        System.out.println(ColorCodes.BRIGHT_GREEN + ColorCodes.BOLD + "Order confirmed and saved! 😉" + ColorCodes.RESET);
                         ordering = false;
                     }
                     break;
                 case "0":
-                    System.out.println(CaseColors.ANSI_RED + "Canceling order..." + CaseColors.ANSI_RESET);
-                    System.out.println(ColorCodes.BRIGHT_RED + "❌ Order canceled." + ColorCodes.RESET);
+                    System.out.println(CaseColors.ANSI_RED + "Canceling order. 😒" + CaseColors.ANSI_RESET);
+                    System.out.println(ColorCodes.BRIGHT_RED + "Order canceled. ❌" + ColorCodes.RESET);
                     ordering = false;
                     break;
                 default:
@@ -93,7 +93,7 @@ public class One_Heck_Of_A_UI {
     }
 
     private static Heckful_Sandwich buildSandwich() {
-        System.out.println(ColorCodes.BRIGHT_YELLOW + ColorCodes.BOLD + "\n=== Build Your Hellish Sandwich 😋===" + ColorCodes.RESET);
+        System.out.println(ColorCodes.BRIGHT_YELLOW + ColorCodes.BOLD + "\n===🏗️ Build Your Hellish Sandwich 😋===" + ColorCodes.RESET);
 
         System.out.println(ColorCodes.BRIGHT_WHITE + "Choose size: " + ColorCodes.GREEN + "1) 4\"  " + ColorCodes.BLUE + "2) 8\"  " + ColorCodes.PURPLE + "3) 12\"" + ColorCodes.RESET);
         SandwichSize size = switch (scanner.nextLine()) {
@@ -139,7 +139,7 @@ public class One_Heck_Of_A_UI {
             }
         };
 
-        System.out.print(ColorCodes.BRIGHT_CYAN + "Toasted? (y/n): " + ColorCodes.RESET);
+        System.out.print(ColorCodes.BRIGHT_CYAN + "Toasted 🍞🔥?  (y/n): " + ColorCodes.RESET);
         boolean toasted = scanner.nextLine().equalsIgnoreCase("y");
 
         Heckful_Sandwich sandwich = new Heckful_Sandwich(size, bread, toasted);
@@ -196,10 +196,10 @@ public class One_Heck_Of_A_UI {
                         System.out.print(ColorCodes.BRIGHT_YELLOW + "Extra " + toppingName + "? (y/n): " + ColorCodes.RESET);
                         isExtra = scanner.nextLine().equalsIgnoreCase("y");
                         sandwich.addTopping(new Heckful_PremiumToppings(toppingName, isExtra));
-                        System.out.println(ColorCodes.BRIGHT_GREEN + "✓ Added " + (isExtra ? "extra " : "") + toppingName + ColorCodes.RESET);
+                        System.out.println(ColorCodes.BRIGHT_GREEN + "✅ Added " + (isExtra ? "extra " : "") + toppingName + ColorCodes.RESET);
                     } else {
                         sandwich.addTopping(new Heckful_RegularToppings(toppingName, false));
-                        System.out.println(ColorCodes.BRIGHT_GREEN + "✓ Added " + toppingName + ColorCodes.RESET);
+                        System.out.println(ColorCodes.BRIGHT_GREEN + "✅ Added " + toppingName + ColorCodes.RESET);
                     }
                 } else {
                     System.out.println(ColorCodes.BRIGHT_RED + "Invalid topping choice. 🤬" + ColorCodes.RESET);
@@ -212,7 +212,7 @@ public class One_Heck_Of_A_UI {
 
     private static Drink buildDrink() {
         System.out.println(ColorCodes.BRIGHT_CYAN + ColorCodes.BOLD + "\n=== Add a Drink 🍾 ===" + ColorCodes.RESET);
-        System.out.println(ColorCodes.BRIGHT_WHITE + "Choose Drink Size: " + ColorCodes.GREEN + "1) Small  " + ColorCodes.YELLOW + "2) Medium  " + ColorCodes.RED + "3) Large" + ColorCodes.RESET);
+        System.out.println(ColorCodes.BRIGHT_WHITE + "Choose Drink Size: " + ColorCodes.GREEN + "1) Small  🔸" + ColorCodes.YELLOW + "2) Medium  Ⓜ️" + ColorCodes.RED + "3) Large 🔷" + ColorCodes.RESET);
         DrinkSize size = switch (scanner.nextLine()) {
             case "1" -> {
                 System.out.println(CaseColors.ANSI_GREEN + "Selected Small drink" + CaseColors.ANSI_RESET);
@@ -235,7 +235,7 @@ public class One_Heck_Of_A_UI {
         System.out.print(ColorCodes.BRIGHT_PURPLE + "Enter Drink Flavor or Type: " + ColorCodes.RESET);
         String flavor = scanner.nextLine();
 
-        System.out.println(ColorCodes.BRIGHT_GREEN + "✅ Added " + size.toString().toLowerCase() + " " + flavor + " drink!" + ColorCodes.RESET);
+        System.out.println(ColorCodes.BRIGHT_GREEN + "✅ Added " + size.toString().toLowerCase() + " " + flavor + " drink! 🍶" + ColorCodes.RESET);
         return new Drink(size, flavor);
     }
 

@@ -17,3 +17,6 @@ https://www.geeksforgeeks.org/file-class-in-java/
 
 //Making a directory in java
 https://www.geeksforgeeks.org/how-to-create-a-directory-in-java/
+
+//Emoji Ideas
+https://emojis.wiki/
