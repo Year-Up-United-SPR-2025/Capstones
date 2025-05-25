@@ -31,7 +31,7 @@ Although the diagram appears a bit chaotic, I used color-coded arrows to indicat
 10. The next package I created is named UI_OF_THE_DANGED, which contains:
 * One_Heck_Of_A_UI which provides a colorful command-line user interface for a sandwich ordering system, featuring a main menu loop and order management with options to add sandwiches, drinks, and chips to an order. The interface uses extensive color coding and emojis throughout the user experience, guiding customers through sandwich customization (size, bread, toppings), drink selection, chip choices, and final checkout with receipt generation and file saving.
 * CaseColors which provide the color for the case codes, and ColorCodes which provides the color for the terminal when you are running/building my application.
-* Also, provide a method that creates a wait time between menus using the Java Thread.sleep() method to make the user experience feel smoother and more polished.
+* Also, I provide a method that creates a wait time between menus using the Java Thread.sleep() method to make the user experience feel smoother and more polished.
 11. Finally, my Main class, which is named One_Heck_Of_A_Main which runs the UI from One_Heck_Of_A_UI.
 
 
