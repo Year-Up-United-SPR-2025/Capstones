@@ -87,7 +87,7 @@ public class One_Heck_Of_A_UI {
                     ordering = false;
                     break;
                 default:
-                    System.out.println(ColorCodes.BRIGHT_RED + "Invalid choice." + ColorCodes.RESET);
+                    System.out.println(ColorCodes.BRIGHT_RED + "Invalid choice. 🫥" + ColorCodes.RESET);
             }
         }
     }
@@ -232,10 +232,10 @@ public class One_Heck_Of_A_UI {
             }
         };
 
-        System.out.print(ColorCodes.BRIGHT_PURPLE + "Enter drink flavor or Type: " + ColorCodes.RESET);
+        System.out.print(ColorCodes.BRIGHT_PURPLE + "Enter Drink Flavor or Type: " + ColorCodes.RESET);
         String flavor = scanner.nextLine();
 
-        System.out.println(ColorCodes.BRIGHT_GREEN + "✓ Added " + size.toString().toLowerCase() + " " + flavor + " drink!" + ColorCodes.RESET);
+        System.out.println(ColorCodes.BRIGHT_GREEN + "✅ Added " + size.toString().toLowerCase() + " " + flavor + " drink!" + ColorCodes.RESET);
         return new Drink(size, flavor);
     }
 
@@ -243,7 +243,7 @@ public class One_Heck_Of_A_UI {
         System.out.println(ColorCodes.BRIGHT_GREEN + ColorCodes.BOLD + "\n=== Add Chips 🛢️🥔===" + ColorCodes.RESET);
         System.out.print(ColorCodes.BRIGHT_YELLOW + "Enter Chips Flavor or Type: " + ColorCodes.RESET);
         String type = scanner.nextLine();
-        System.out.println(ColorCodes.BRIGHT_GREEN + "✓ Added " + type + " chips!" + ColorCodes.RESET);
+        System.out.println(ColorCodes.BRIGHT_GREEN + "✅ Added " + type + " chips!" + ColorCodes.RESET);
         return new Chips(type);
     }
 }
