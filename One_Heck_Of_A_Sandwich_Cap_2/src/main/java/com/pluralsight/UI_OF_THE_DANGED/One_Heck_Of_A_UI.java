@@ -98,19 +98,19 @@ public class One_Heck_Of_A_UI {
         System.out.println(ColorCodes.BRIGHT_WHITE + "Choose size: " + ColorCodes.GREEN + "1) 4\"  " + ColorCodes.BLUE + "2) 8\"  " + ColorCodes.PURPLE + "3) 12\"" + ColorCodes.RESET);
         SandwichSize size = switch (scanner.nextLine()) {
             case "1" -> {
-                System.out.println(CaseColors.ANSI_GREEN + "Selected 4\" sandwich" + CaseColors.ANSI_RESET);
+                System.out.println(CaseColors.ANSI_GREEN + "🥪 Selected 4\" sandwich" + CaseColors.ANSI_RESET);
                 yield SandwichSize.FOUR_INCH;
             }
             case "2" -> {
-                System.out.println(CaseColors.ANSI_BLUE + "Selected 8\" sandwich" + CaseColors.ANSI_RESET);
+                System.out.println(CaseColors.ANSI_BLUE + "🥖 Selected 8\" sandwich" + CaseColors.ANSI_RESET);
                 yield SandwichSize.EIGHT_INCH;
             }
             case "3" -> {
-                System.out.println(CaseColors.ANSI_YELLOW + "Selected 12\" sandwich" + CaseColors.ANSI_RESET);
+                System.out.println(CaseColors.ANSI_YELLOW + "🍞 Selected 12\" sandwich" + CaseColors.ANSI_RESET);
                 yield SandwichSize.TWELVE_INCH;
             }
             default -> {
-                System.out.println(CaseColors.ANSI_BLUE + "Defaulted to 8\" sandwich" + CaseColors.ANSI_RESET);
+                System.out.println(CaseColors.ANSI_BLUE + "🥖 Defaulted to 8\" sandwich" + CaseColors.ANSI_RESET);
                 yield SandwichSize.EIGHT_INCH;
             }
         };
