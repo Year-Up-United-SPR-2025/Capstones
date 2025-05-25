@@ -20,3 +20,6 @@ https://www.geeksforgeeks.org/how-to-create-a-directory-in-java/
 
 //Emoji Ideas
 https://emojis.wiki/
+
+//Sleep/Pause in Java
+https://www.geeksforgeeks.org/thread-sleep-method-in-java-with-examples/
