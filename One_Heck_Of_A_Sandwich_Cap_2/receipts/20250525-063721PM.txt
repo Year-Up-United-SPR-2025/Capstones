@@ -1,30 +1,38 @@
 ==== One Heck Of A Sandwich Receipt ==== 🧾
-Time: 2025-05-25T09:40:27.720796500
+Time: 2025-05-25T18:35:15.650252100
 
 Sandwich:
-EIGHT_INCH WRAP sandwich (Toasted)
+EIGHT_INCH RYE sandwich
 Toppings:
 - 🥩 Steak (Extra)
 - 🍖 Ham
-- 🍕 Salami (Extra)
+- 🍕 Salami
 - 🥩 Roast Beef
 - 🍗 Chicken
-- 🥓 Bacon
+- 🥓 Bacon (Extra)
 - 🧀 American
-- 🧀 Provolone
-- 🧀 Cheddar (Extra)
-- 🧀 Swiss
-- 🌶️ Peppers
+- 🧀 Provolone (Extra)
+- 🧀 Cheddar
+- 🧀 Swiss (Extra)
 - 🥬 Lettuce
+- 🌶️ Peppers
 - 🧅 Onions
 - 🍅 Tomatoes
 - 🌶️ Jalapeños
+- 🥒 Cucumbers
+- 🥒 Pickles
+- 🥑 Guacamole
+- 🍄 Mushrooms
+- 🥪 Mayo
 - 🌭 Mustard
 - 🍅 Ketchup
 - 🥗 Ranch
+- 🧡 Thousand Islands
+- 🥗 Vinaigrette
+- 🌭 Mustard
 Total Price: $7.00
 
-Drink: LARGE Sprite - $3.0
+Drink: LARGE Starry - $3.0
 Chips: Lays BBQ Chips - $1.50
 
 TOTAL: $11.50

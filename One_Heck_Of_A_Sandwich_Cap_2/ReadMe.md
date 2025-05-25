@@ -41,7 +41,7 @@ Although the diagram appears a bit chaotic, I used color-coded arrows to indicat
 This is the flowchart I created to make sure that I do not get lost making this project. I also have a previous version here to compare between the two: https://github.com/Year-Up-United-SPR-2025/Capstones/blob/main/One_Heck_Of_A_Sandwich_Cap_2/UML's/OldFlowChart/One%20Heck%20of%20a%20Board.jpg
 
 # Project Demo 📹🥪
-[![Screenshot 2025-05-25 095046](https://github.com/user-attachments/assets/e7863657-f24f-434a-81d9-1c0b1f32f6f1)](https://youtu.be/jGgVNq827WY)
+[![Screenshot 2025-05-25 095046](https://github.com/user-attachments/assets/e7863657-f24f-434a-81d9-1c0b1f32f6f1)](https://youtu.be/tWWfnp2oCEY)
 
 Click the image above to watch a video walkthrough of how the code works in action.
 I’m really proud of this project and put a lot of effort into every detail—from the logic and structure of the code to thoughtful variable/class naming and clean, color-coded formatting.
