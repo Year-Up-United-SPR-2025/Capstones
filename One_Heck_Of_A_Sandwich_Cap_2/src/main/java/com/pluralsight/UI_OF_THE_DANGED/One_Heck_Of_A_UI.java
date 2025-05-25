@@ -162,7 +162,7 @@ public class One_Heck_Of_A_UI {
             case "meat" -> new String[]{"🥩 Steak", "🍖 Ham", "🍕 Salami", "🥩 Roast Beef", "🍗 Chicken", "🥓 Bacon"};
             case "cheese" -> new String[]{"🧀 American", "🧀 Provolone", "🧀 Cheddar", "🧀 Swiss"};
             case "regular" -> new String[]{"🥬 Lettuce", "🌶️ Peppers", "🧅 Onions", "🍅 Tomatoes", "🌶️ Jalapeños", "🥒 Cucumbers", "🥒 Pickles", "🥑 Guacamole", "🍄 Mushrooms"};
-            case "sauce" -> new String[]{"🥪 Mayo", "🌭 Mustard", "🍔 Ketchup", "🥗 Ranch", "🧡 Thousand Islands", "🥗 Vinaigrette"};
+            case "sauce" -> new String[]{"🥪 Mayo", "🌭 Mustard", "🍅 Ketchup", "🥗 Ranch", "🧡 Thousand Islands", "🥗 Vinaigrette"};
             default -> new String[]{};
         };
 
