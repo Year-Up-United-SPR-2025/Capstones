@@ -28,11 +28,11 @@ public class One_Heck_Of_A_UI {
 
             switch (choice) {
                 case "1":
-                    System.out.println(CaseColors.ANSI_GREEN + "Starting new order... 😃" + CaseColors.ANSI_RESET);
+                    System.out.println(CaseColors.ANSI_GREEN + "Starting new order. 😃" + CaseColors.ANSI_RESET);
                     startOrder();
                     break;
                 case "0":
-                    System.out.println(CaseColors.ANSI_RED + "Exiting application... 😭" + CaseColors.ANSI_RESET);
+                    System.out.println(CaseColors.ANSI_RED + "Exiting application. 😭" + CaseColors.ANSI_RESET);
                     running = false;
                     break;
                 default:
