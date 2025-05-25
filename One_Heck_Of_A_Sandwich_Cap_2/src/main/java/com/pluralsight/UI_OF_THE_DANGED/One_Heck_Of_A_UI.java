@@ -21,18 +21,18 @@ public class One_Heck_Of_A_UI {
 
         while (running) {
             System.out.println(ColorCodes.BRIGHT_YELLOW + ColorCodes.BOLD + "==== Welcome to One Heck Of A Sandwich 🥵 ====" + ColorCodes.RESET);
-            System.out.println(ColorCodes.BRIGHT_GREEN + "1) New Order" + ColorCodes.RESET);
-            System.out.println(ColorCodes.BRIGHT_RED + "0) Exit" + ColorCodes.RESET);
+            System.out.println(ColorCodes.BRIGHT_GREEN + "1) New Order 🌚" + ColorCodes.RESET);
+            System.out.println(ColorCodes.BRIGHT_RED + "0) Exit 🙋🏾‍♂️" + ColorCodes.RESET);
             System.out.print(ColorCodes.BRIGHT_CYAN + "Choose an option: " + ColorCodes.RESET);
             String choice = scanner.nextLine();
 
             switch (choice) {
                 case "1":
-                    System.out.println(CaseColors.ANSI_GREEN + "Starting new order..." + CaseColors.ANSI_RESET);
+                    System.out.println(CaseColors.ANSI_GREEN + "Starting new order... 😃" + CaseColors.ANSI_RESET);
                     startOrder();
                     break;
                 case "0":
-                    System.out.println(CaseColors.ANSI_RED + "Exiting application..." + CaseColors.ANSI_RESET);
+                    System.out.println(CaseColors.ANSI_RED + "Exiting application... 😭" + CaseColors.ANSI_RESET);
                     running = false;
                     break;
                 default:
@@ -52,7 +52,7 @@ public class One_Heck_Of_A_UI {
             System.out.println(ColorCodes.BRIGHT_BLUE + ColorCodes.BOLD + "\n=== Order Menu 🐦‍🔥 ===" + ColorCodes.RESET);
             System.out.println(ColorCodes.YELLOW + "1) Add Sandwich 🥪" + ColorCodes.RESET);
             System.out.println(ColorCodes.CYAN + "2) Add Drink 🍹" + ColorCodes.RESET);
-            System.out.println(ColorCodes.GREEN + "3) Add Chips 🥔🔪" + ColorCodes.RESET);
+            System.out.println(ColorCodes.GREEN + "3) Add Chips 🥔🍠" + ColorCodes.RESET);
             System.out.println(ColorCodes.BRIGHT_GREEN + ColorCodes.BOLD + "4) Checkout ✅" + ColorCodes.RESET);
             System.out.println(ColorCodes.BRIGHT_RED + "0) Cancel Order 🪦" + ColorCodes.RESET);
             System.out.print(ColorCodes.BRIGHT_CYAN + "💬 Choose an option: " + ColorCodes.RESET);
@@ -60,19 +60,19 @@ public class One_Heck_Of_A_UI {
 
             switch (option) {
                 case "1":
-                    System.out.println(CaseColors.ANSI_YELLOW + "Building sandwich..." + CaseColors.ANSI_RESET);
+                    System.out.println(CaseColors.ANSI_YELLOW + "Building sandwich 🥪🥪🥪" + CaseColors.ANSI_RESET);
                     order.addSandwich(buildSandwich());
                     break;
                 case "2":
-                    System.out.println(CaseColors.ANSI_BLUE + "Adding drink..." + CaseColors.ANSI_RESET);
+                    System.out.println(CaseColors.ANSI_BLUE + "Adding drink 🥛🥛🥛 " + CaseColors.ANSI_RESET);
                     order.addDrink(buildDrink());
                     break;
                 case "3":
-                    System.out.println(CaseColors.ANSI_GREEN + "Adding chips..." + CaseColors.ANSI_RESET);
+                    System.out.println(CaseColors.ANSI_GREEN + "Adding chips 🥔🍠🥔" + CaseColors.ANSI_RESET);
                     order.addChips(buildChips());
                     break;
                 case "4":
-                    System.out.println(CaseColors.ANSI_YELLOW + "Processing checkout..." + CaseColors.ANSI_RESET);
+                    System.out.println(CaseColors.ANSI_YELLOW + "Processing checkout ✔️✔️✔️" + CaseColors.ANSI_RESET);
                     System.out.println(ColorCodes.BRIGHT_WHITE + ColorCodes.BOLD + "\n" + order.generateReceipt() + ColorCodes.RESET);
                     System.out.print(ColorCodes.BRIGHT_YELLOW + ColorCodes.BOLD + "Confirm order? (y/n): 🤔" + ColorCodes.RESET);
                     if (scanner.nextLine().equalsIgnoreCase("y")) {
