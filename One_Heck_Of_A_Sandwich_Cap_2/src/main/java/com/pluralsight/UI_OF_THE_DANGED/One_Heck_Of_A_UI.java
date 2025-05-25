@@ -41,7 +41,7 @@ public class One_Heck_Of_A_UI {
         }
 
         System.out.println(ColorCodes.BRIGHT_PURPLE + ColorCodes.BOLD + "Thank you for using One Heck Of A Sandwich! 🙇🏾" + ColorCodes.RESET +
-               ColorCodes.BRIGHT_CYAN + ColorCodes.BOLD + " Have one Heck of a Day Now 😈" + ColorCodes.RESET);
+                ColorCodes.BRIGHT_CYAN + ColorCodes.BOLD + " Have one Heck of a Day Now 😈" + ColorCodes.RESET);
     }
 
     private static void startOrder() {
@@ -118,23 +118,23 @@ public class One_Heck_Of_A_UI {
         System.out.println(ColorCodes.BRIGHT_WHITE + "Choose bread: " + ColorCodes.YELLOW + "1) White  " + ColorCodes.RED + "2) Wheat  " + ColorCodes.GREEN + "3) Rye  " + ColorCodes.CYAN + "4) Wrap" + ColorCodes.RESET);
         BreadType bread = switch (scanner.nextLine()) {
             case "1" -> {
-                System.out.println(CaseColors.ANSI_YELLOW + "Selected White bread" + CaseColors.ANSI_RESET);
+                System.out.println(CaseColors.ANSI_YELLOW + "🍞 Selected White bread" + CaseColors.ANSI_RESET);
                 yield BreadType.WHITE;
             }
             case "2" -> {
-                System.out.println(CaseColors.ANSI_RED + "Selected Wheat bread" + CaseColors.ANSI_RESET);
+                System.out.println(CaseColors.ANSI_RED + "🌾 Selected Wheat bread" + CaseColors.ANSI_RESET);
                 yield BreadType.WHEAT;
             }
             case "3" -> {
-                System.out.println(CaseColors.ANSI_GREEN + "Selected Rye bread" + CaseColors.ANSI_RESET);
+                System.out.println(CaseColors.ANSI_GREEN + "🥖 Selected Rye bread" + CaseColors.ANSI_RESET);
                 yield BreadType.RYE;
             }
             case "4" -> {
-                System.out.println(CaseColors.ANSI_BLUE + "Selected Wrap" + CaseColors.ANSI_RESET);
+                System.out.println(CaseColors.ANSI_BLUE + "🌯 Selected Wrap" + CaseColors.ANSI_RESET);
                 yield BreadType.WRAP;
             }
             default -> {
-                System.out.println(CaseColors.ANSI_YELLOW + "Defaulted to White bread" + CaseColors.ANSI_RESET);
+                System.out.println(CaseColors.ANSI_YELLOW + "🍞 Defaulted to White bread" + CaseColors.ANSI_RESET);
                 yield BreadType.WHITE;
             }
         };
@@ -161,8 +161,10 @@ public class One_Heck_Of_A_UI {
         String[] options = switch (type) {
             case "meat" -> new String[]{"🥩 Steak", "🍖 Ham", "🍕 Salami", "🥩 Roast Beef", "🍗 Chicken", "🥓 Bacon"};
             case "cheese" -> new String[]{"🧀 American", "🧀 Provolone", "🧀 Cheddar", "🧀 Swiss"};
-            case "regular" -> new String[]{"🥬 Lettuce", "🌶️ Peppers", "🧅 Onions", "🍅 Tomatoes", "🌶️ Jalapeños", "🥒 Cucumbers", "🥒 Pickles", "🥑 Guacamole", "🍄 Mushrooms"};
-            case "sauce" -> new String[]{"🥪 Mayo", "🌭 Mustard", "🍅 Ketchup", "🥗 Ranch", "🧡 Thousand Islands", "🥗 Vinaigrette"};
+            case "regular" ->
+                    new String[]{"🥬 Lettuce", "🌶️ Peppers", "🧅 Onions", "🍅 Tomatoes", "🌶️ Jalapeños", "🥒 Cucumbers", "🥒 Pickles", "🥑 Guacamole", "🍄 Mushrooms"};
+            case "sauce" ->
+                    new String[]{"🥪 Mayo", "🌭 Mustard", "🍅 Ketchup", "🥗 Ranch", "🧡 Thousand Islands", "🥗 Vinaigrette"};
             default -> new String[]{};
         };
 
@@ -215,19 +217,19 @@ public class One_Heck_Of_A_UI {
         System.out.println(ColorCodes.BRIGHT_WHITE + "Choose Drink Size: " + ColorCodes.GREEN + "1) Small  🔸" + ColorCodes.YELLOW + "2) Medium  Ⓜ️" + ColorCodes.RED + "3) Large 🔷" + ColorCodes.RESET);
         DrinkSize size = switch (scanner.nextLine()) {
             case "1" -> {
-                System.out.println(CaseColors.ANSI_GREEN + "Selected Small drink" + CaseColors.ANSI_RESET);
+                System.out.println(CaseColors.ANSI_GREEN + "🟢 Selected Small drink 🥤" + CaseColors.ANSI_RESET);
                 yield DrinkSize.SMALL;
             }
             case "2" -> {
-                System.out.println(CaseColors.ANSI_YELLOW + "Selected Medium drink" + CaseColors.ANSI_RESET);
+                System.out.println(CaseColors.ANSI_YELLOW + "🟡 Selected Medium drink 🧃" + CaseColors.ANSI_RESET);
                 yield DrinkSize.MEDIUM;
             }
             case "3" -> {
-                System.out.println(CaseColors.ANSI_RED + "Selected Large drink" + CaseColors.ANSI_RESET);
+                System.out.println(CaseColors.ANSI_RED + "🔴 Selected Large drink 🧋" + CaseColors.ANSI_RESET);
                 yield DrinkSize.LARGE;
             }
             default -> {
-                System.out.println(CaseColors.ANSI_GREEN + "Defaulted to Small drink" + CaseColors.ANSI_RESET);
+                System.out.println(CaseColors.ANSI_GREEN + "🟢 Defaulted to Small drink 🥤" + CaseColors.ANSI_RESET);
                 yield DrinkSize.SMALL;
             }
         };
