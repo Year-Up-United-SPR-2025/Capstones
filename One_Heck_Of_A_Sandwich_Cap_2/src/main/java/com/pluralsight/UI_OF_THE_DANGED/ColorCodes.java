@@ -12,7 +12,6 @@ public class ColorCodes
     public static final String CYAN = "\u001B[36m";
     public static final String WHITE = "\u001B[37m";
 
-    //More colors
     public static final String BRIGHT_BLACK = "\u001B[90m";
     public static final String BRIGHT_RED = "\u001B[91m";
     public static final String BRIGHT_GREEN = "\u001B[92m";
@@ -31,7 +30,6 @@ public class ColorCodes
     public static final String CYAN_BACKGROUND = "\u001B[46m";
     public static final String WHITE_BACKGROUND = "\u001B[47m";
 
-    //more background colors
     public static final String BRIGHT_BLACK_BACKGROUND = "\u001B[100m";
     public static final String BRIGHT_RED_BACKGROUND = "\u001B[101m";
     public static final String BRIGHT_GREEN_BACKGROUND = "\u001B[102m";
@@ -41,15 +39,54 @@ public class ColorCodes
     public static final String BRIGHT_CYAN_BACKGROUND = "\u001B[106m";
     public static final String BRIGHT_WHITE_BACKGROUND = "\u001B[107m";
 
-    //Text Styles
     public static final String BOLD = "\u001B[1m";
     public static final String UNDERLINE = "\u001B[4m";
     public static final String REVERSED = "\u001B[7m";
-    public static final String BLINK = "\u001B[5m";     // May not work in all terminals
-    public static final String HIDDEN = "\u001B[8m";    // Text won't display, useful for hiding
+    public static final String BLINK = "\u001B[5m";
+    public static final String HIDDEN = "\u001B[8m";
 
+    // Orange
+    public static final String ORANGE = "\u001B[38;5;208m";
+    public static final String ORANGE_RGB = "\u001B[38;2;255;165;0m";
+    public static final String ORANGE_BACKGROUND = "\u001B[48;5;208m";
+    public static final String ORANGE_RGB_BACKGROUND = "\u001B[48;2;255;165;0m";
 
+    // 12 New Colors
+    public static final String PINK = "\u001B[38;5;205m";
+    public static final String PINK_RGB = "\u001B[38;2;255;105;180m";
 
-    private ColorCodes(){}
-    
+    public static final String LIGHT_BLUE = "\u001B[38;5;117m";
+    public static final String LIGHT_BLUE_RGB = "\u001B[38;2;173;216;230m";
+
+    public static final String TEAL = "\u001B[38;5;30m";
+    public static final String TEAL_RGB = "\u001B[38;2;0;128;128m";
+
+    public static final String BROWN = "\u001B[38;5;94m";
+    public static final String BROWN_RGB = "\u001B[38;2;139;69;19m";
+
+    public static final String GOLD = "\u001B[38;5;220m";
+    public static final String GOLD_RGB = "\u001B[38;2;255;215;0m";
+
+    public static final String OLIVE = "\u001B[38;5;100m";
+    public static final String OLIVE_RGB = "\u001B[38;2;128;128;0m";
+
+    public static final String CORAL = "\u001B[38;5;203m";
+    public static final String CORAL_RGB = "\u001B[38;2;255;127;80m";
+
+    public static final String SALMON = "\u001B[38;5;209m";
+    public static final String SALMON_RGB = "\u001B[38;2;250;128;114m";
+
+    public static final String LAVENDER = "\u001B[38;5;183m";
+    public static final String LAVENDER_RGB = "\u001B[38;2;230;230;250m";
+
+    public static final String NAVY = "\u001B[38;5;18m";
+    public static final String NAVY_RGB = "\u001B[38;2;0;0;128m";
+
+    public static final String MINT = "\u001B[38;5;121m";
+    public static final String MINT_RGB = "\u001B[38;2;152;255;152m";
+
+    public static final String MAROON = "\u001B[38;5;1m";
+    public static final String MAROON_RGB = "\u001B[38;2;128;0;0m";
+
+    private ColorCodes() {}
 }

@@ -200,12 +200,14 @@ public class One_Heck_Of_A_UI {
 
     private static void addToppings(Heckful_Sandwich sandwich, String type, boolean isPremium) {
         String[] options = switch (type) {
-            case "meat" -> new String[]{"🥩 Steak", "🍖 Ham", "🍕 Salami", "🥩 Roast Beef", "🍗 Chicken", "🥓 Bacon"};
-            case "cheese" -> new String[]{"🧀 American", "🧀 Provolone", "🧀 Cheddar", "🧀 Swiss"};
+            case "meat" ->
+                    new String[]{ColorCodes.RED + "🥩 Steak", ColorCodes.RED + "🍖 Ham", ColorCodes.RED + "🥪 Salami", ColorCodes.RED + "🥩 Roast Beef", ColorCodes.BROWN_RGB + "🍗 Chicken", ColorCodes.BRIGHT_RED + "🥓 Bacon"};
+            case "cheese" ->
+                    new String[]{ColorCodes.YELLOW + "🧀 American", ColorCodes.WHITE + "🧀 Provolone", ColorCodes.YELLOW + "🧀 Cheddar", ColorCodes.WHITE + "🧀 Swiss"};
             case "regular" ->
-                    new String[]{"🥬 Lettuce", "🌶️ Peppers", "🧅 Onions", "🍅 Tomatoes", "🌶️ Jalapeños", "🥒 Cucumbers", "🥒 Pickles", "🥑 Guacamole", "🍄 Mushrooms"};
+                    new String[]{ColorCodes.GREEN +"🥬 Lettuce", ColorCodes.BRIGHT_RED + "🌶️ Peppers", ColorCodes.YELLOW +"🧅 Onions", ColorCodes.RED + "🍅 Tomatoes", ColorCodes.GREEN + "🌶️ Jalapeños", ColorCodes.GREEN + "🥒 Cucumbers", ColorCodes.GREEN + "🥒 Pickles", ColorCodes.GREEN + "🥑 Guacamole", ColorCodes.WHITE + "🍄 Mushrooms"};
             case "sauce" ->
-                    new String[]{"🥪 Mayo", "🌭 Mustard", "🍅 Ketchup", "🥗 Ranch", "🧡 Thousand Islands", "🥗 Vinaigrette"};
+                    new String[]{ColorCodes.WHITE + "🥪 Mayo", ColorCodes.BRIGHT_YELLOW + "🌭 Mustard", ColorCodes.BRIGHT_RED + "🍅 Ketchup", ColorCodes.WHITE + "🥗 Ranch", ColorCodes.ORANGE + "🧡 Thousand Islands", ColorCodes.CORAL + "🥗 Vinaigrette"};
             default -> new String[]{};
         };
 
