@@ -1,51 +1,42 @@
-One_Heck_Of_A_Sandwich_Cap_2
-│
-├── receipts/
-│   ├── 20250524-094532.txt
-│   ├── 20250524-123700.txt
-│   └── 20250525-063721PM.txt
-│
-├── resources/
-│   └── resorces.txt
-│
-├── Screenshots/
-│
-└── src/
-    └── main/
-        └── java/
-            └── com/
-                └── pluralsight/
-                    ├── Heck_Emuns/
-                    │   ├── BreadType.java
-                    │   ├── DrinkSize.java
-                    │   └── SandwichSize.java
-                    │
-                    ├── Heck_Toppings/
-                    │   ├── Heckful_PremiumToppings.java
-                    │   ├── Heckful_RegularToppings.java
-                    │   └── Heckful_Toppings.java
-                    │
-                    ├── Heckful_Order/
-                    │   └── Heck_Order.java
-                    │
-                    ├── Hecks_Signatures/
-                    │   ├── BLT_O_Heck.java
-                    │   ├── Heck_O_Alot_Of_PhillyCheeseSteak.java
-                    │   └── Hecks_Signature.java
-                    │
-                    ├── One_Heck_of_a_Sandwich_Package/
-                    │   └── Heckful_Sandwich.java
-                    │
-                    ├── Sides/
-                    │   ├── Chips.java
-                    │   └── Drink.java
-                    │
-                    ├── ULOF_THE_DANGED/
-                    │   ├── CaseColors.java
-                    │   ├── ColorCodes.java
-                    │   └── One_Heck_Of_A_UI.java
-                    │
-                    ├── Your_Soulful_Receipts/
-                    │   └── ReceiptWriter.java
-                    │
-                    └── One_Heck_Of_A_Main.java
+receipts_test_directory/
+├── 20250524-094532_Proto1.txt
+├── 20250524-123700_Proto1.txt
+└── 20250525-063721PM_V2.txt
+
+resources/
+
+Screenshots/
+
+src/
+└── main/
+    └── java/
+        └── com.pluralsight/
+            ├── Heck_Emuns/
+            │   ├── BreadType
+            │   ├── DrinkSize
+            │   └── SandwichSize
+            ├── Heck_Toppings/
+            │   ├── Heckful_PremiumToppings
+            │   ├── Heckful_RegularToppings
+            │   └── Heckful_Toppings
+            ├── Heckful_Order/
+            │   └── Heck_Order
+            ├── Hecks_Signatures/
+            │   ├── BLT_O_Heck
+            │   ├── CluckinChickenBaconRanch
+            │   ├── Heck_O_Alot_Of_PhillyCheaseSteak
+            │   ├── HeckinItalianSub
+            │   ├── Hecks_Signature
+            │   └── SignatureFactory
+            ├── One_Heck_of_a_Sandwich_Package/
+            │   └── Heckful_Sandwich
+            ├── Sides/
+            │   ├── Chips
+            │   └── Drink
+            ├── UI_OF_THE_DANGED/
+            │   ├── CaseColors
+            │   ├── ColorCodes
+            │   └── One_Heck_Of_A_UI
+            └── Your_Soulful_Receipts/
+                ├── ReceiptWriter
+                └── One_Heck_Of_A_Main
