@@ -15,4 +15,9 @@ public class Hecks_Signature extends Heckful_Sandwich {
     public String getName() {
         return name;
     }
+
+    @Override
+    public String toString() {
+        return name + " Signature Sandwich (" + getSize() + ", " + getBreadType() + ", " + (isToasted() ? "Toasted" : "Not Toasted") + ")";
+    }
 }

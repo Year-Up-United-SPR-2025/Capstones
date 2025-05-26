@@ -66,4 +66,20 @@ public class Heckful_Sandwich {
         sb.append("Total Price: $").append(String.format("%.2f", getTotalPrice()));
         return sb.toString();
     }
+
+    public String getName() {
+        return size + " " + bread + (toasted ? " (Toasted)" : "") + " Sandwich";
+    }
+
+    public SandwichSize getSize() {
+        return size;
+    }
+
+    public BreadType getBreadType() {
+        return bread;
+    }
+
+    public boolean isToasted() {
+        return toasted;
+    }
 }

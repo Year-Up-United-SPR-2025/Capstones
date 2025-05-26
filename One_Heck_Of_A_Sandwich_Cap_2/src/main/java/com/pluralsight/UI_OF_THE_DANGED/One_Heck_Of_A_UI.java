@@ -6,6 +6,8 @@ import com.pluralsight.Heck_Emuns.SandwichSize;
 import com.pluralsight.Heck_Toppings.Heckful_PremiumToppings;
 import com.pluralsight.Heck_Toppings.Heckful_RegularToppings;
 import com.pluralsight.Heckful_Order.Heck_Order;
+import com.pluralsight.Hecks_Signatures.BLT_O_Heck;
+import com.pluralsight.Hecks_Signatures.Heck_O_Alot_Of_PhillyCheeseSteak;
 import com.pluralsight.One_Heck_of_a_Sandwich_Package.Heckful_Sandwich;
 import com.pluralsight.Sides.Chips;
 import com.pluralsight.Sides.Drink;
@@ -70,6 +72,7 @@ public class One_Heck_Of_A_UI {
             System.out.println(ColorCodes.CYAN + "2) Add Drink 🍹" + ColorCodes.RESET);
             System.out.println(ColorCodes.GREEN + "3) Add Chips 🥔🍠" + ColorCodes.RESET);
             System.out.println(ColorCodes.BRIGHT_GREEN + ColorCodes.BOLD + "4) Checkout ✅" + ColorCodes.RESET);
+            System.out.println(ColorCodes.PURPLE + "5) Add Signature Sandwich 🧙‍♂️" + ColorCodes.RESET);
             System.out.println(ColorCodes.BRIGHT_RED + "0) Cancel Order 🪦" + ColorCodes.RESET);
             System.out.print(ColorCodes.BRIGHT_CYAN + "💬 Choose an Option: " + ColorCodes.RESET);
             String option = scanner.nextLine();
@@ -103,6 +106,13 @@ public class One_Heck_Of_A_UI {
                         System.out.println(ColorCodes.BRIGHT_GREEN + ColorCodes.BOLD + "Order confirmed and saved! 😉" + ColorCodes.RESET);
                         sleep(500);
                         ordering = false;
+                    }
+                    break;
+                case "5":
+                    Heckful_Sandwich sig = chooseSignature(); // corrected method call
+                    if (sig != null) {
+                        order.addSandwich(sig);
+                        System.out.println(ColorCodes.BRIGHT_GREEN + "Added: " + sig.getName() + ColorCodes.RESET);
                     }
                     break;
                 case "0":
@@ -364,5 +374,24 @@ public class One_Heck_Of_A_UI {
         System.out.println(ColorCodes.BRIGHT_GREEN + "✅ Added " + type + " chips!" + ColorCodes.RESET);
         sleep(300);
         return new Chips(type);
+    }
+
+    private static Heckful_Sandwich chooseSignature() {
+        System.out.println(ColorCodes.BRIGHT_WHITE + "\nChoose a signature sandwich:" + ColorCodes.RESET);
+        System.out.println("1) BLT O Heck");
+        System.out.println("2) Heck O Alot Of_PhillyCheeseSteak");
+        System.out.println("3) Heckin Italian");
+        System.out.println("4) Cluckin Chicken");
+        System.out.print("Your choice: ");
+        String input = scanner.nextLine();
+
+        return switch (input) {
+            case "1" -> new BLT_O_Heck();
+            case "2" -> new Heck_O_Alot_Of_PhillyCheeseSteak();
+            default -> {
+                System.out.println(ColorCodes.BRIGHT_RED + "Invalid choice. Returning to menu." + ColorCodes.RESET);
+                yield null;
+            }
+        };
     }
 }
