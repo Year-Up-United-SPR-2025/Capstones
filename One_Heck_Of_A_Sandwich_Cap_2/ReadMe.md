@@ -22,6 +22,8 @@ Although the diagram appears a bit chaotic, I used color-coded arrows to indicat
 * Hecks_Signature class extends Heckful_Sandwich and represents a predefined signature sandwich with a specific name, size, bread type, and toasted preference. It adds a name field to identify the signature sandwich and provides a getter method for it.
 * BLT_O_Heck class is a specific signature sandwich that extends Hecks_Signature, preconfigured with the name "BLT", an 8-inch toasted white bread base, and a set of predefined premium toppings. It adds bacon, cheddar, lettuce, tomatoes, and ranch as its ingredients using the addTopping method.
 * The Heck_O_Alot_Of_PhillyCheeseSteak class defines a signature sandwich by extending Hecks_Signature, preset with the name "Philly Cheese Steak", 8-inch toasted white bread, and a specific combination of toppings. It includes steak, American cheese, peppers, and mayo using the addTopping method to build the sandwich.
+* Heckin' Italian Sub, setting its name, size, bread type, and default toppings using colorful formatting and specific topping classes.
+*  Chicken Bacon Ranch signature sandwich with preset size, wheat bread, and a list of premium and regular toppings.
 7. Created a package named One_Heck_of_a_Sandwich_Package which contains:
 * Heckful_Sandwich class represents a customizable sandwich, including its size, bread type, toasted option, and a list of toppings. It provides methods to add toppings, calculate base and total prices (including topping costs), and generate a formatted description of the complete sandwich order.
 8. Created the package named Heckful_Order, which contains:
