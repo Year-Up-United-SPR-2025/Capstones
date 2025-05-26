@@ -184,21 +184,60 @@ public class One_Heck_Of_A_UI {
 
         Heckful_Sandwich sandwich = new Heckful_Sandwich(size, bread, toasted);
 
+        // Initialize topping counters
+        ToppingCounter counter = new ToppingCounter();
+
         // Add meats
-        addToppings(sandwich, "meat", true);
+        addToppings(sandwich, "meat", true, counter);
         // Add cheeses
-        addToppings(sandwich, "cheese", true);
+        addToppings(sandwich, "cheese", true, counter);
         // Add regular toppings
-        addToppings(sandwich, "regular", false);
+        addToppings(sandwich, "regular", false, counter);
         // Add sauces
-        addToppings(sandwich, "sauce", false);
+        addToppings(sandwich, "sauce", false, counter);
 
         System.out.println(ColorCodes.BRIGHT_GREEN + ColorCodes.BOLD + " Sandwich built successfully! 🎊" + ColorCodes.RESET);
         sleep(500); // Pause after completing sandwich
         return sandwich;
     }
 
-    private static void addToppings(Heckful_Sandwich sandwich, String type, boolean isPremium) {
+    // Helper class to track topping counts
+    private static class ToppingCounter {
+        private int totalToppings = 0;
+        private int extraToppings = 0;
+        private int lastChargeNotification = 0; // Track when we last showed charge message
+
+        public void addTopping(boolean isExtra) {
+            totalToppings++;
+            if (isExtra) {
+                extraToppings++;
+            }
+            checkForChargeNotification();
+        }
+
+        private void checkForChargeNotification() {
+            // Check if we should show charge notification
+            boolean shouldNotify = false;
+
+            // Every 5 total toppings
+            if (totalToppings > 0 && totalToppings % 5 == 0 && totalToppings != lastChargeNotification) {
+                shouldNotify = true;
+            }
+            // Every 2 extra toppings
+            else if (extraToppings > 0 && extraToppings % 2 == 0 && extraToppings != lastChargeNotification) {
+                shouldNotify = true;
+            }
+
+            if (shouldNotify) {
+                sleep(200);
+                System.out.println(ColorCodes.BRIGHT_YELLOW + ColorCodes.BOLD + "💰 Additional charge: $0.50 will be added to your order! 💸" + ColorCodes.RESET);
+                sleep(400);
+                lastChargeNotification = Math.max(totalToppings, extraToppings);
+            }
+        }
+    }
+
+    private static void addToppings(Heckful_Sandwich sandwich, String type, boolean isPremium, ToppingCounter counter) {
         String[] options = switch (type) {
             case "meat" ->
                     new String[]{ColorCodes.RED + "🥩 Steak", ColorCodes.RED + "🍖 Ham", ColorCodes.RED + "🥪 Salami", ColorCodes.RED + "🥩 Roast Beef", ColorCodes.BROWN_RGB + "🍗 Chicken", ColorCodes.BRIGHT_RED + "🥓 Bacon"};
@@ -250,6 +289,10 @@ public class One_Heck_Of_A_UI {
                         System.out.println(ColorCodes.BRIGHT_GREEN + "✅ Added " + toppingName + ColorCodes.RESET);
                         sleep(200); // Pause after adding regular topping
                     }
+
+                    // Update counter and check for charge notification
+                    counter.addTopping(isExtra);
+
                 } else {
                     System.out.println(ColorCodes.BRIGHT_RED + "Invalid topping choice. 🤬" + ColorCodes.RESET);
                     sleep(250);
