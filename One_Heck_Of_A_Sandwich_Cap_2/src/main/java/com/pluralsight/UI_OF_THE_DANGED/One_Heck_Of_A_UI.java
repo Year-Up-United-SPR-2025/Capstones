@@ -257,13 +257,13 @@ public class One_Heck_Of_A_UI {
     private static void addToppings(Heckful_Sandwich sandwich, String type, boolean isPremium, ToppingCounter counter) {
         String[] options = switch (type) {
             case "meat" ->
-                    new String[]{ColorCodes.RED + "🥩 Steak", ColorCodes.RED + "🍖 Ham", ColorCodes.RED + "🥪 Salami", ColorCodes.RED + "🥩 Roast Beef", ColorCodes.BROWN_RGB + "🍗 Chicken", ColorCodes.BRIGHT_RED + "🥓 Bacon"};
+                    new String[]{ColorCodes.RED + "🥩 Steak", ColorCodes.RED + "🍖 Ham", ColorCodes.RED + "🥪 Salami", ColorCodes.RED + "🥩 Roast Beef", ColorCodes.BROWN_RGB + "🍗 Chicken", ColorCodes.BRIGHT_RED + "🥓 Bacon" + ColorCodes.RESET};
             case "cheese" ->
-                    new String[]{ColorCodes.YELLOW + "🧀 American", ColorCodes.WHITE + "🧀 Provolone", ColorCodes.YELLOW + "🧀 Cheddar", ColorCodes.WHITE + "🧀 Swiss"};
+                    new String[]{ColorCodes.YELLOW + "🧀 American", ColorCodes.WHITE + "🧀 Provolone", ColorCodes.YELLOW + "🧀 Cheddar", ColorCodes.WHITE + "🧀 Swiss" + ColorCodes.RESET };
             case "regular" ->
-                    new String[]{ColorCodes.GREEN +"🥬 Lettuce", ColorCodes.BRIGHT_RED + "🌶️ Peppers", ColorCodes.YELLOW +"🧅 Onions", ColorCodes.RED + "🍅 Tomatoes", ColorCodes.GREEN + "🌶️ Jalapeños", ColorCodes.GREEN + "🥒 Cucumbers", ColorCodes.GREEN + "🥒 Pickles", ColorCodes.GREEN + "🥑 Guacamole", ColorCodes.WHITE + "🍄 Mushrooms"};
+                    new String[]{ColorCodes.GREEN +"🥬 Lettuce", ColorCodes.BRIGHT_RED + "🌶️ Peppers", ColorCodes.YELLOW +"🧅 Onions", ColorCodes.RED + "🍅 Tomatoes", ColorCodes.GREEN + "🌶️ Jalapeños", ColorCodes.GREEN + "🥒 Cucumbers", ColorCodes.GREEN + "🥒 Pickles", ColorCodes.GREEN + "🥑 Guacamole", ColorCodes.WHITE + "🍄 Mushrooms" + ColorCodes.RESET};
             case "sauce" ->
-                    new String[]{ColorCodes.WHITE + "🥪 Mayo", ColorCodes.BRIGHT_YELLOW + "🌭 Mustard", ColorCodes.BRIGHT_RED + "🍅 Ketchup", ColorCodes.WHITE + "🥗 Ranch", ColorCodes.ORANGE + "🧡 Thousand Islands", ColorCodes.CORAL + "🥗 Vinaigrette"};
+                    new String[]{ColorCodes.WHITE + "🥪 Mayo", ColorCodes.BRIGHT_YELLOW + "🌭 Mustard", ColorCodes.BRIGHT_RED + "🍅 Ketchup", ColorCodes.WHITE + "🥗 Ranch", ColorCodes.ORANGE + "🧡 Thousand Islands", ColorCodes.CORAL + "🥗 Vinaigrette" + ColorCodes.RESET};
             default -> new String[]{};
         };
 
