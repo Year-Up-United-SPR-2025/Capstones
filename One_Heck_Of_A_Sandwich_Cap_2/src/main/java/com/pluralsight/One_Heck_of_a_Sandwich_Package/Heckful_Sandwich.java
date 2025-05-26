@@ -55,7 +55,7 @@ public class Heckful_Sandwich {
 
     public String getDescription() {
         StringBuilder sb = new StringBuilder();
-        sb.append(size).append(" ").append(bread).append(" sandwich").append(toasted ? " (Toasted)" : "");
+        sb.append(size).append(" ").append(bread).append(" Sandwich").append(toasted ? " (Toasted)" : "");
         sb.append("\nToppings:\n");
         for (Heckful_Toppings t : toppings) {
             sb.append("- ").append(t.getName()).append(t.isExtra() ? " (Extra)" : "").append("\n");

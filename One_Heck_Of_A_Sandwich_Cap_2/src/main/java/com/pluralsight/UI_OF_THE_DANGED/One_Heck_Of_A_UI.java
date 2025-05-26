@@ -71,22 +71,22 @@ public class One_Heck_Of_A_UI {
             System.out.println(ColorCodes.GREEN + "3) Add Chips 🥔🍠" + ColorCodes.RESET);
             System.out.println(ColorCodes.BRIGHT_GREEN + ColorCodes.BOLD + "4) Checkout ✅" + ColorCodes.RESET);
             System.out.println(ColorCodes.BRIGHT_RED + "0) Cancel Order 🪦" + ColorCodes.RESET);
-            System.out.print(ColorCodes.BRIGHT_CYAN + "💬 Choose an option: " + ColorCodes.RESET);
+            System.out.print(ColorCodes.BRIGHT_CYAN + "💬 Choose an Option: " + ColorCodes.RESET);
             String option = scanner.nextLine();
 
             switch (option) {
                 case "1":
-                    System.out.println(CaseColors.ANSI_YELLOW + "Building sandwich 🥪🥪🥪" + CaseColors.ANSI_RESET);
+                    System.out.println(CaseColors.ANSI_YELLOW + "Building Sandwich 🥪🥪🥪" + CaseColors.ANSI_RESET);
                     sleep(500);
                     order.addSandwich(buildSandwich());
                     break;
                 case "2":
-                    System.out.println(CaseColors.ANSI_BLUE + "Adding drink 🥛🥛🥛 " + CaseColors.ANSI_RESET);
+                    System.out.println(CaseColors.ANSI_BLUE + "Adding Drink 🥛🥛🥛 " + CaseColors.ANSI_RESET);
                     sleep(400);
                     order.addDrink(buildDrink());
                     break;
                 case "3":
-                    System.out.println(CaseColors.ANSI_GREEN + "Adding chips 🥔🍠🥔" + CaseColors.ANSI_RESET);
+                    System.out.println(CaseColors.ANSI_GREEN + "Adding Chips 🥔🍠🥔" + CaseColors.ANSI_RESET);
                     sleep(400);
                     order.addChips(buildChips());
                     break;
@@ -246,7 +246,7 @@ public class One_Heck_Of_A_UI {
                 sleep(200);
                 System.out.println(ColorCodes.BRIGHT_YELLOW + ColorCodes.BOLD +
                         "💰 Additional charge: $" + String.format("%.2f", SURCHARGE_AMOUNT) +
-                        " applied (" + chargeReason + ")! 💸" + ColorCodes.RESET);
+                        " Applied (" + chargeReason + ")! 💸" + ColorCodes.RESET);
                 sandwich.addSurcharge(SURCHARGE_AMOUNT);
                 chargesMade++;
                 sleep(400);
@@ -351,7 +351,7 @@ public class One_Heck_Of_A_UI {
         System.out.print(ColorCodes.BRIGHT_PURPLE + "Enter Drink Flavor or Type: " + ColorCodes.RESET);
         String flavor = scanner.nextLine();
 
-        System.out.println(ColorCodes.BRIGHT_GREEN + "✅ Added " + size.toString().toLowerCase() + " " + flavor + " drink! 🍶" + ColorCodes.RESET);
+        System.out.println(ColorCodes.BRIGHT_GREEN + "✅ Added " + size.toString().toLowerCase() + " " + flavor + " Drink! 🍶" + ColorCodes.RESET);
         sleep(350);
         return new Drink(size, flavor);
     }
