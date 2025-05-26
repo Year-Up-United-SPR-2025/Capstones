@@ -327,22 +327,22 @@ public class One_Heck_Of_A_UI {
         System.out.println(ColorCodes.BRIGHT_WHITE + "Choose Drink Size: " + ColorCodes.GREEN + "1) Small  🔸" + ColorCodes.YELLOW + "2) Medium  Ⓜ️" + ColorCodes.RED + "3) Large 🔷" + ColorCodes.RESET);
         DrinkSize size = switch (scanner.nextLine()) {
             case "1" -> {
-                System.out.println(CaseColors.ANSI_GREEN + "🟢 Selected Small drink 🥤" + CaseColors.ANSI_RESET);
+                System.out.println(CaseColors.ANSI_GREEN + "Selected Small drink 🥤" + CaseColors.ANSI_RESET);
                 sleep(300);
                 yield DrinkSize.SMALL;
             }
             case "2" -> {
-                System.out.println(CaseColors.ANSI_YELLOW + "🟡 Selected Medium drink 🧃" + CaseColors.ANSI_RESET);
+                System.out.println(CaseColors.ANSI_YELLOW + "Selected Medium drink 🧃" + CaseColors.ANSI_RESET);
                 sleep(300);
                 yield DrinkSize.MEDIUM;
             }
             case "3" -> {
-                System.out.println(CaseColors.ANSI_RED + "🔴 Selected Large drink 🧋" + CaseColors.ANSI_RESET);
+                System.out.println(CaseColors.ANSI_RED + "Selected Large drink 🧋" + CaseColors.ANSI_RESET);
                 sleep(300);
                 yield DrinkSize.LARGE;
             }
             default -> {
-                System.out.println(CaseColors.ANSI_GREEN + "🟢 Defaulted to Small drink 🥤" + CaseColors.ANSI_RESET);
+                System.out.println(CaseColors.ANSI_GREEN + "Defaulted to Small drink 🥤" + CaseColors.ANSI_RESET);
                 sleep(300);
                 yield DrinkSize.SMALL;
             }
