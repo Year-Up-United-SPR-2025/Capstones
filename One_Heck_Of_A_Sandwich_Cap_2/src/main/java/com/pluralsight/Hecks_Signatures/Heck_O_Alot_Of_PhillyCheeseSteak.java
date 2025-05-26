@@ -11,6 +11,6 @@ public class Heck_O_Alot_Of_PhillyCheeseSteak extends Hecks_Signature {
         addTopping(new Heckful_PremiumToppings(ColorCodes.RED + "🥩 Steak" + ColorCodes.RESET, false));
         addTopping(new Heckful_PremiumToppings(ColorCodes.BRIGHT_YELLOW + "🧀 American" + ColorCodes.RESET, false));
         addTopping(new Heckful_PremiumToppings(ColorCodes.BRIGHT_RED + "🌶️ Peppers" + ColorCodes.RESET, false));
-        addTopping(new Heckful_PremiumToppings(ColorCodes.WHITE + "🥪 Mayo" + ColorCodes.RESET, false));
+        addTopping(new Heckful_PremiumToppings(ColorCodes.ANTIQUE_WHITE + "🥪 Mayo" + ColorCodes.RESET, false));
     }
 }
