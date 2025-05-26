@@ -36,9 +36,10 @@ Although the diagram appears a bit chaotic, I used color-coded arrows to indicat
 
 
 # FlowChart & File Structure 📊🥪
+![One Heck of A FlowChart V3.jpg](UML%27s/V3FlowChart/One%20Heck%20of%20A%20FlowChart%20V3.jpg)
 
+This is the flowchart I created to make sure that I do not get lost making this project. I also have a previous versions here to compare between the three: 
 
-This is the flowchart I created to make sure that I do not get lost making this project. I also have a previous version here to compare between the two: https://github.com/Year-Up-United-SPR-2025/Capstones/blob/main/One_Heck_Of_A_Sandwich_Cap_2/UML's/OldFlowChart/One%20Heck%20of%20a%20Board.jpg
 
 Right here is where you can see my file structure as well to get an idea on how the flowchart and this fits together:
 [One_Heck_of_A_File_Structure.txt](One_Heck_of_A_File_Structure.txt)
