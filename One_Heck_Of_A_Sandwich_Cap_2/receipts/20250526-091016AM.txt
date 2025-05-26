@@ -1,0 +1,27 @@
+==== One Heck Of A Sandwich Receipt ==== 🧾
+Time: 2025-05-26T09:09:06.610599
+
+Sandwich:
+EIGHT_INCH RYE sandwich (Toasted)
+Toppings:
+- [31m🥩 Steak (Extra)
+- [31m🍖 Ham
+- [31m🥪 Salami (Extra)
+- [33m🧀 American (Extra)
+- [37m🧀 Provolone (Extra)
+- [32m🥬 Lettuce
+- [91m🌶️ Peppers
+- [33m🧅 Onions
+- [32m🥒 Cucumbers
+- [91m🌶️ Peppers
+- [37m🥪 Mayo
+- [93m🌭 Mustard
+- [91m🍅 Ketchup
+- [38;5;208m🧡 Thousand Islands
+- [38;5;203m🥗 Vinaigrette
+Additional Charges: $2.50
+Total Price: $9.50
+
+
+TOTAL: $9.50
+=========================================
