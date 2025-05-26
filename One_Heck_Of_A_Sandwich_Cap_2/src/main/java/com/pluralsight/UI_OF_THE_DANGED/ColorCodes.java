@@ -1,7 +1,6 @@
 package com.pluralsight.UI_OF_THE_DANGED;
 
-public class ColorCodes
-{
+public class ColorCodes {
     public static final String RESET = "\u001B[0m";
     public static final String BLACK = "\u001B[30m";
     public static final String RED = "\u001B[31m";
@@ -88,5 +87,26 @@ public class ColorCodes
     public static final String MAROON = "\u001B[38;5;1m";
     public static final String MAROON_RGB = "\u001B[38;2;128;0;0m";
 
-    private ColorCodes() {}
+    // Ivory
+    public static final String IVORY = "\u001B[38;5;230m";
+    public static final String IVORY_RGB = "\u001B[38;2;255;255;240m";
+
+    // Snow
+    public static final String SNOW = "\u001B[38;5;231m";
+    public static final String SNOW_RGB = "\u001B[38;2;255;250;250m";
+
+    // Ghost White
+    public static final String GHOST_WHITE = "\u001B[38;5;255m";
+    public static final String GHOST_WHITE_RGB = "\u001B[38;2;248;248;255m";
+
+    // Floral White
+    public static final String FLORAL_WHITE = "\u001B[38;5;231m";
+    public static final String FLORAL_WHITE_RGB = "\u001B[38;2;255;250;240m";
+
+    // Antique White
+    public static final String ANTIQUE_WHITE = "\u001B[38;5;223m";
+    public static final String ANTIQUE_WHITE_RGB = "\u001B[38;2;250;235;215m";
+
+    private ColorCodes() {
+    }
 }
