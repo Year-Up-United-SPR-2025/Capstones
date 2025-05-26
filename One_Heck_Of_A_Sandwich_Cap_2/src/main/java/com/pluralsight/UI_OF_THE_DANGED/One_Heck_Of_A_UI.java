@@ -72,9 +72,9 @@ public class One_Heck_Of_A_UI {
             sleep(150);
             System.out.println(ColorCodes.YELLOW + "1) Add Sandwich 🥪" + ColorCodes.RESET);
             System.out.println(ColorCodes.CYAN + "2) Add Drink 🍹" + ColorCodes.RESET);
-            System.out.println(ColorCodes.GREEN + "3) Add Chips 🥔🍠" + ColorCodes.RESET);
-            System.out.println(ColorCodes.BRIGHT_GREEN + ColorCodes.BOLD + "4) Checkout ✅" + ColorCodes.RESET);
-            System.out.println(ColorCodes.PURPLE + "5) Add Signature Sandwich 🧙‍♂️" + ColorCodes.RESET);
+            System.out.println(ColorCodes.PURPLE + "3) Add Signature Sandwich 🧙‍♂️" + ColorCodes.RESET);
+            System.out.println(ColorCodes.GREEN + "4) Add Chips 🥔🍠" + ColorCodes.RESET);
+            System.out.println(ColorCodes.BRIGHT_GREEN + ColorCodes.BOLD + "5) Checkout ✅" + ColorCodes.RESET);
             System.out.println(ColorCodes.BRIGHT_RED + "0) Cancel Order 🪦" + ColorCodes.RESET);
             System.out.print(ColorCodes.BRIGHT_CYAN + "💬 Choose an Option: " + ColorCodes.RESET);
             String option = scanner.nextLine();
@@ -91,11 +91,18 @@ public class One_Heck_Of_A_UI {
                     order.addDrink(buildDrink());
                     break;
                 case "3":
+                    Heckful_Sandwich sig = chooseSignature();
+                    if (sig != null) {
+                        order.addSandwich(sig);
+                        System.out.println(ColorCodes.BRIGHT_GREEN + "Added: " + sig.getName() + ColorCodes.RESET);
+                    }
+                    break;
+                case "4":
                     System.out.println(CaseColors.ANSI_GREEN + "Adding Chips 🥔🍠🥔" + CaseColors.ANSI_RESET);
                     sleep(400);
                     order.addChips(buildChips());
                     break;
-                case "4":
+                case "5":
                     System.out.println(CaseColors.ANSI_YELLOW + "Processing checkout ✔️✔️✔️" + CaseColors.ANSI_RESET);
                     sleep(600);
                     System.out.println(ColorCodes.BRIGHT_WHITE + ColorCodes.BOLD + "\n" + order.generateReceipt() + ColorCodes.RESET);
@@ -108,13 +115,6 @@ public class One_Heck_Of_A_UI {
                         System.out.println(ColorCodes.BRIGHT_GREEN + ColorCodes.BOLD + "Order confirmed and saved! 😉" + ColorCodes.RESET);
                         sleep(500);
                         ordering = false;
-                    }
-                    break;
-                case "5":
-                    Heckful_Sandwich sig = chooseSignature(); // corrected method call
-                    if (sig != null) {
-                        order.addSandwich(sig);
-                        System.out.println(ColorCodes.BRIGHT_GREEN + "Added: " + sig.getName() + ColorCodes.RESET);
                     }
                     break;
                 case "0":
@@ -380,10 +380,10 @@ public class One_Heck_Of_A_UI {
 
     private static Heckful_Sandwich chooseSignature() {
         System.out.println(ColorCodes.BRIGHT_WHITE + "\nChoose a signature sandwich:" + ColorCodes.RESET);
-        System.out.println("1) BLT O Heck");
-        System.out.println("2) Heck O Alot Of_PhillyCheeseSteak");
-        System.out.println("3) Heckin Italian");
-        System.out.println("4) Cluckin Chicken");
+        System.out.println(ColorCodes.BLUE + "1) 🥓 BLT O Heck" + ColorCodes.RESET);
+        System.out.println(ColorCodes.RED + "2) 🧀 Heck O Alot Of Philly Cheese Steak" + ColorCodes.RESET);
+        System.out.println(ColorCodes.BRIGHT_PURPLE + "3) 🍅 Heckin Italian" + ColorCodes.RESET);
+        System.out.println(ColorCodes.LAVENDER + "4) 🍗 Heckin Chicken" + ColorCodes.RESET);
         System.out.print("Your choice: ");
         String input = scanner.nextLine();
 
