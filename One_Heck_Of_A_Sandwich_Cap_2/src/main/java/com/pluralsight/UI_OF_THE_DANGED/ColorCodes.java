@@ -107,6 +107,26 @@ public class ColorCodes {
     public static final String ANTIQUE_WHITE = "\u001B[38;5;223m";
     public static final String ANTIQUE_WHITE_RGB = "\u001B[38;2;250;235;215m";
 
+    // Lime Green
+    public static final String LIME_GREEN = "\u001B[38;5;118m";
+    public static final String LIME_GREEN_RGB = "\u001B[38;2;50;205;50m";
+
+    // Forest Green
+    public static final String FOREST_GREEN = "\u001B[38;5;22m";
+    public static final String FOREST_GREEN_RGB = "\u001B[38;2;34;139;34m";
+
+    // Sea Green
+    public static final String SEA_GREEN = "\u001B[38;5;29m";
+    public static final String SEA_GREEN_RGB = "\u001B[38;2;46;139;87m";
+
+    // Olive Drab
+    public static final String OLIVE_DRAB = "\u001B[38;5;64m";
+    public static final String OLIVE_DRAB_RGB = "\u001B[38;2;107;142;35m";
+
+    // Pale Green
+    public static final String PALE_GREEN = "\u001B[38;5;120m";
+    public static final String PALE_GREEN_RGB = "\u001B[38;2;152;251;152m";
+
     private ColorCodes() {
     }
 }

@@ -261,7 +261,7 @@ public class One_Heck_Of_A_UI {
             case "cheese" ->
                     new String[]{ColorCodes.YELLOW + "🧀 American", ColorCodes.IVORY + "🧀 Provolone", ColorCodes.YELLOW + "🧀 Cheddar", ColorCodes.GHOST_WHITE + "🧀 Swiss" + ColorCodes.RESET};
             case "regular" ->
-                    new String[]{ColorCodes.GREEN + "🥬 Lettuce", ColorCodes.BRIGHT_RED + "🌶️ Peppers", ColorCodes.YELLOW + "🧅 Onions", ColorCodes.RED + "🍅 Tomatoes", ColorCodes.GREEN + "🌶️ Jalapeños", ColorCodes.GREEN + "🥒 Cucumbers", ColorCodes.GREEN + "🥒 Pickles", ColorCodes.GREEN + "🥑 Guacamole", ColorCodes.GHOST_WHITE + "🍄 Mushrooms"};
+                    new String[]{ColorCodes.FOREST_GREEN + "🥬 Lettuce", ColorCodes.BRIGHT_RED + "🌶️ Peppers", ColorCodes.YELLOW + "🧅 Onions", ColorCodes.RED + "🍅 Tomatoes", ColorCodes.LIME_GREEN + "🌶️ Jalapeños", ColorCodes.GREEN + "🥒 Cucumbers", ColorCodes.SEA_GREEN + "🥒 Pickles", ColorCodes.GREEN + "🥑 Guacamole", ColorCodes.GHOST_WHITE + "🍄 Mushrooms"};
             case "sauce" ->
                     new String[]{ColorCodes.WHITE + "🥪 Mayo", ColorCodes.BRIGHT_YELLOW + "🌭 Mustard", ColorCodes.BRIGHT_RED + "🍅 Ketchup", ColorCodes.WHITE + "🥗 Ranch", ColorCodes.ORANGE + "🧡 Thousand Islands", ColorCodes.CORAL + "🥗 Vinaigrette"};
             default -> new String[]{};
