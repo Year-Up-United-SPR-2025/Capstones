@@ -72,7 +72,7 @@ public class One_Heck_Of_A_UI {
             sleep(150);
             System.out.println(ColorCodes.YELLOW + "1) Add Sandwich 🥪" + ColorCodes.RESET);
             System.out.println(ColorCodes.CYAN + "2) Add Drink 🍹" + ColorCodes.RESET);
-            System.out.println(ColorCodes.PURPLE + "3) Add Signature Sandwich 🧙‍♂️" + ColorCodes.RESET);
+            System.out.println(ColorCodes.PURPLE + "3) Add Signature Sandwich 📜" + ColorCodes.RESET);
             System.out.println(ColorCodes.GREEN + "4) Add Chips 🥔🍠" + ColorCodes.RESET);
             System.out.println(ColorCodes.BRIGHT_GREEN + ColorCodes.BOLD + "5) Checkout ✅" + ColorCodes.RESET);
             System.out.println(ColorCodes.BRIGHT_RED + "0) Cancel Order 🪦" + ColorCodes.RESET);
