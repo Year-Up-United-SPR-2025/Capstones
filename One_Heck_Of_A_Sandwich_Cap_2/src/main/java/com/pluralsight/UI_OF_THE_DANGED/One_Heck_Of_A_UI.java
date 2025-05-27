@@ -81,12 +81,12 @@ public class One_Heck_Of_A_UI {
 
             switch (option) {
                 case "1":
-                    System.out.println(CaseColors.ANSI_YELLOW + "Building Sandwich 🥪🥪🥪" + CaseColors.ANSI_RESET);
+                    System.out.println(CaseColors.ANSI_YELLOW + "Going to Building Sandwich 🥪🥪🥪" + CaseColors.ANSI_RESET);
                     sleep(500);
                     order.addSandwich(buildSandwich());
                     break;
                 case "2":
-                    System.out.println(CaseColors.ANSI_BLUE + "Adding Drink 🥛🥛🥛 " + CaseColors.ANSI_RESET);
+                    System.out.println(CaseColors.ANSI_BLUE + "Going to Adding Drink 🥛🥛🥛 " + CaseColors.ANSI_RESET);
                     sleep(400);
                     order.addDrink(buildDrink());
                     break;
