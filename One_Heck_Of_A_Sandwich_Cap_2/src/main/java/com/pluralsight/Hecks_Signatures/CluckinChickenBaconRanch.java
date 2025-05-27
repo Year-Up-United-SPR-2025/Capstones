@@ -8,7 +8,7 @@ import com.pluralsight.UI_OF_THE_DANGED.ColorCodes;
 
 public class CluckinChickenBaconRanch extends Hecks_Signature {
     public CluckinChickenBaconRanch() {
-        super(ColorCodes.BROWN_RGB + "🍗 Cluckin Chicken Bacon Ranch" + ColorCodes.RESET, SandwichSize.EIGHT_INCH, BreadType.WHEAT, true);
+        super(ColorCodes.BROWN_RGB + "🍗 Cluckin Chicken Bacon Ranch" + ColorCodes.RESET, SandwichSize.TWELVE_INCH, BreadType.WHEAT, true);
         addTopping(new Heckful_PremiumToppings(ColorCodes.BROWN_RGB + "🍗 Grilled Chicken" + ColorCodes.RESET, false));
         addTopping(new Heckful_PremiumToppings(ColorCodes.BRIGHT_RED + "🥓 Bacon" + ColorCodes.RESET, false));
         addTopping(new Heckful_PremiumToppings(ColorCodes.BRIGHT_YELLOW + "🧀 Cheddar" + ColorCodes.RESET, false));
