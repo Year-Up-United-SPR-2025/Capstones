@@ -2,7 +2,7 @@ package com.pluralsight.Heck_Toppings;
 
 import com.pluralsight.Heck_Emuns.SandwichSize;
 
-public class Heckful_PremiumToppings extends Heckful_Toppings{
+public class Heckful_PremiumToppings extends Heckful_Toppings {
     public Heckful_PremiumToppings(String name, boolean isExtra) {
         super(name, isExtra);
     }
