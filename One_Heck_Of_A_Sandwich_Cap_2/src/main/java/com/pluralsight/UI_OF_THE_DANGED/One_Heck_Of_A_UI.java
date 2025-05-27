@@ -34,7 +34,7 @@ public class One_Heck_Of_A_UI {
         boolean running = true;
 
         while (running) {
-            System.out.println(ColorCodes.BRIGHT_YELLOW + ColorCodes.BOLD + "==== Welcome to One Heck Of A Sandwich 🥵 ====" + ColorCodes.RESET);
+            System.out.println(ColorCodes.BRIGHT_YELLOW + ColorCodes.BOLD + "==== 🫂 Welcome to One Heck Of A Sandwich 🥵 ====" + ColorCodes.RESET);
             sleep(200);
             System.out.println(ColorCodes.BRIGHT_GREEN + "1) New Order 🌚" + ColorCodes.RESET);
             System.out.println(ColorCodes.BRIGHT_RED + "0) Exit 🙋🏾‍♂️" + ColorCodes.RESET);
@@ -191,7 +191,7 @@ public class One_Heck_Of_A_UI {
         System.out.print(ColorCodes.BRIGHT_CYAN + "Toasted 🍞🔥?  (y/n): " + ColorCodes.RESET);
         boolean toasted = scanner.nextLine().equalsIgnoreCase("y");
         if (toasted) {
-            System.out.println(ColorCodes.BRIGHT_YELLOW + "🔥 Toasting your bread..." + ColorCodes.RESET);
+            System.out.println(ColorCodes.BRIGHT_YELLOW + "🔥 Toasting your bread 🍞" + ColorCodes.RESET);
             sleep(500);
         }
 
@@ -275,7 +275,7 @@ public class One_Heck_Of_A_UI {
             case "regular" ->
                     new String[]{ColorCodes.FOREST_GREEN + "🥬 Lettuce", ColorCodes.BRIGHT_RED + "🌶️ Peppers", ColorCodes.YELLOW + "🧅 Onions", ColorCodes.RED + "🍅 Tomatoes", ColorCodes.LIME_GREEN + "🌶️ Jalapeños", ColorCodes.GREEN + "🥒 Cucumbers", ColorCodes.SEA_GREEN + "🥒 Pickles", ColorCodes.GREEN + "🥑 Guacamole", ColorCodes.GHOST_WHITE + "🍄 Mushrooms"};
             case "sauce" ->
-                    new String[]{ColorCodes.WHITE + "🥪 Mayo", ColorCodes.BRIGHT_YELLOW + "🌭 Mustard", ColorCodes.BRIGHT_RED + "🍅 Ketchup", ColorCodes.ANTIQUE_WHITE + "🥗 Ranch", ColorCodes.ORANGE + "🧡 Thousand Islands", ColorCodes.CORAL + "🥗 Vinaigrette"};
+                    new String[]{ColorCodes.GHOST_WHITE + "🥪 Mayo", ColorCodes.YELLOW + "💛 Honey Mustard" + ColorCodes.BRIGHT_RED + "🍅 Ketchup", ColorCodes.ANTIQUE_WHITE + "🥗 Ranch", ColorCodes.ORANGE + "🧡 Thousand Islands", ColorCodes.CORAL + "🥗 Vinaigrette"};
             default -> new String[]{};
         };
 
@@ -334,7 +334,7 @@ public class One_Heck_Of_A_UI {
     }
 
     private static Drink buildDrink() {
-        System.out.println(ColorCodes.BRIGHT_CYAN + ColorCodes.BOLD + "\n=== Add a Drink 🍾 ===" + ColorCodes.RESET);
+        System.out.println(ColorCodes.BRIGHT_CYAN + ColorCodes.BOLD + "\n===➕ Add a Drink 🍾 ===" + ColorCodes.RESET);
         sleep(250);
         System.out.println(ColorCodes.BRIGHT_WHITE + "Choose Drink Size: " + ColorCodes.GREEN + "1) Small  🔸" + ColorCodes.YELLOW + "2) Medium  Ⓜ️" + ColorCodes.RED + "3) Large 🔷" + ColorCodes.RESET);
         DrinkSize size = switch (scanner.nextLine()) {
@@ -369,7 +369,7 @@ public class One_Heck_Of_A_UI {
     }
 
     private static Chips buildChips() {
-        System.out.println(ColorCodes.BRIGHT_GREEN + ColorCodes.BOLD + "\n=== Add Chips 🛢️🥔===" + ColorCodes.RESET);
+        System.out.println(ColorCodes.BRIGHT_GREEN + ColorCodes.BOLD + "\n===➕ Add Chips 🛢️🥔===" + ColorCodes.RESET);
         sleep(250);
         System.out.print(ColorCodes.BRIGHT_YELLOW + "Enter Chips Flavor or Type: " + ColorCodes.RESET);
         String type = scanner.nextLine();

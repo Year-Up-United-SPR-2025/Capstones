@@ -127,6 +127,14 @@ public class ColorCodes {
     public static final String PALE_GREEN = "\u001B[38;5;120m";
     public static final String PALE_GREEN_RGB = "\u001B[38;2;152;251;152m";
 
+    // Pale Beige
+    public static final String PALE_BEIGE = "\u001B[38;5;230m"; // Very close to beige
+    public static final String PALE_BEIGE_RGB = "\u001B[38;2;245;245;220m"; // RGB for beige (like #F5F5DC)
+
+    // Olive (clarified version)
+    public static final String TRUE_OLIVE = "\u001B[38;5;58m"; // Closer to olive tone
+    public static final String TRUE_OLIVE_RGB = "\u001B[38;2;85;107;47m"; // Olive dark shade (like #556B2F)
+
     private ColorCodes() {
     }
 }
