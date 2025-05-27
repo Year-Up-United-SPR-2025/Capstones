@@ -8,7 +8,7 @@ The development starts with a class flowchart to guide the architecture, which w
 2. Then, I created a flowchart using Draw.io to visualize how the system components interact. 
 Although the diagram appears a bit chaotic, I used color-coded arrows to indicate which classes and code belong to each package, helping me understand how everything works together.
 3. First, I created a package named Heck_Emuns, which stores all the constant variables needed throughout the project. This package is divided into three classes.
-* BreadType, which contains the following constants: WHITE, WHEAT, RYE, and WRAP. These represent the different types of bread available for customers at the sandwich shop.
+* BreadType, which contains the following constants: WHITE, WHEAT, RYE, and WRAP. These represent the different types of bread available for customers at the sandwich shop. There is also see ITALIAN_HERB_AND_CHEESE but that is only for on of the signature sandwiches.
 * DrinkSize, which contains the following constants: SMALL, MEDIUM, LARGE. These represent the different types of drink sizes available for customers at the sandwich shop.  
 * SandwichSize, which contains the following constants: FOUR_INCH, EIGHT_INCH, TWELVE_INCH. These represent the different lengths of sandwiches available for customers at the sandwich shop.
 4. I created a package named Sides, this package contains two classes:
