@@ -89,7 +89,7 @@ Once you press `1` you see the text "Starting new order." Then see the `Order Me
 * `0) Cancel Order 🪦`: if you don't want to have any of your order you can cancel it using this
 
 
-# Video of the code built 🥪📽️
+# Video Demo of Code 🥪📽️
 
 Video
 ---
