@@ -159,7 +159,7 @@ public class Heckin_Launcher {
             }
         };
 
-        System.out.println(ColorCodes.ANTIQUE_WHITE + "Choose bread: " + ColorCodes.YELLOW + "1) White  " + ColorCodes.RED + "2) Wheat  " + ColorCodes.GREEN + "3) Rye  " + ColorCodes.CYAN + "4) Wrap" + ColorCodes.RED + " 5) Italian" + ColorCodes.GHOST_WHITE + " Cheese" + ColorCodes.LIME_GREEN_RGB + " and Herbs" + ColorCodes.RESET);
+        System.out.println(ColorCodes.ANTIQUE_WHITE + "Choose bread: " + ColorCodes.YELLOW + "1) White  " + ColorCodes.RED + "2) Wheat  " + ColorCodes.GREEN + "3) Rye  " + ColorCodes.CYAN + "4) Wrap" + ColorCodes.LIME_GREEN_RGB + " 5) Italian" + ColorCodes.GHOST_WHITE + " Cheese" + ColorCodes.RED + " and Herbs" + ColorCodes.RESET);
         BreadType bread = switch (scanner.nextLine()) {
             case "1" -> {
                 System.out.println(CaseColors.ANSI_YELLOW + "🍞 Selected White bread" + CaseColors.ANSI_RESET);
@@ -182,7 +182,7 @@ public class Heckin_Launcher {
                 yield BreadType.WRAP;
             }
             case "5" ->{
-                System.out.println(CaseColors.ANSI_RED + "💚🤍❤️ Selected Italian Cheese and Herb" + CaseColors.ANSI_RESET);
+                System.out.println(ColorCodes.LIME_GREEN_RGB + "Selected" +  ColorCodes.SNOW_RGB + " Italian Cheese" + ColorCodes.BRIGHT_RED + " and Herb" + " 💚🤍❤️" + CaseColors.ANSI_RESET);
                 sleep(300);
                 yield BreadType.ITALIAN_HERB_AND_CHEESE;
             }
