@@ -67,7 +67,31 @@ V3: https://github.com/Year-Up-United-SPR-2025/Capstones/blob/main/One_Heck_Of_A
 
 Right here is where you can see my file structure as well to get an idea of how the flowchart and this fit together:
 [One_Heck_of_A_File_Structure.txt](One_Heck_of_A_File_Structure.txt)
-# Project Demo 📹🥪
+
+# Screenshots 🥪📸
+
+Welcome Screen
+---
+![HomeScreen.png](Screenshots/HomeScreen.png)
+
+This is the start screen, and you can select `1` to start a new order or `2` to the exit the program.
+
+Order Menu
+---
+![OrderMenu.png](Screenshots/OrderMenu.png)
+
+Once you press `1` you see the text "Starting new order." Then see the `Order Menu` which shows the following options:
+* `1) Add Sandwich 🥪` : this allows you to create like to add to your order
+* `2) Add Drink 🍹`: allows you to add a drink to your order
+* `3) Add Signature Sandwich 📜`: Lets you add one of four signature sandwiches to your order
+* `4) Add Chips 🥔🍠`: allows you to add any chips to your order
+* `5) Checkout ✅`: once you are done with your order you can check out
+* `0) Cancel Order 🪦`: if you don't want to have any of your order you can cancel it using this
+
+
+# Video of the code built
+Video
+---
 [![Screenshot 2025-05-25 095046](https://github.com/user-attachments/assets/e7863657-f24f-434a-81d9-1c0b1f32f6f1)](https://youtu.be/Ia9SrZF1u5Y)
 
 Click the image above to watch a video walkthrough of how the code works in action.
