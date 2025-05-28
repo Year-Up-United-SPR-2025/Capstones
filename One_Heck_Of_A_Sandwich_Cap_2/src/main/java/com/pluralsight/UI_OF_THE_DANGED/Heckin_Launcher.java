@@ -159,7 +159,7 @@ public class Heckin_Launcher {
             }
         };
 
-        System.out.println(ColorCodes.BRIGHT_WHITE + "Choose bread: " + ColorCodes.YELLOW + "1) White  " + ColorCodes.RED + "2) Wheat  " + ColorCodes.GREEN + "3) Rye  " + ColorCodes.CYAN + "4) Wrap" + ColorCodes.RESET);
+        System.out.println(ColorCodes.ANTIQUE_WHITE + "Choose bread: " + ColorCodes.YELLOW + "1) White  " + ColorCodes.RED + "2) Wheat  " + ColorCodes.GREEN + "3) Rye  " + ColorCodes.CYAN + "4) Wrap" + ColorCodes.RED + " 5) Italian" + ColorCodes.GHOST_WHITE + " Cheese" + ColorCodes.FOREST_GREEN + " and Herbs" + ColorCodes.RESET);
         BreadType bread = switch (scanner.nextLine()) {
             case "1" -> {
                 System.out.println(CaseColors.ANSI_YELLOW + "🍞 Selected White bread" + CaseColors.ANSI_RESET);
@@ -167,12 +167,12 @@ public class Heckin_Launcher {
                 yield BreadType.WHITE;
             }
             case "2" -> {
-                System.out.println(CaseColors.ANSI_RED + "🌾 Selected Wheat bread" + CaseColors.ANSI_RESET);
+                System.out.println(CaseColors.ANSI_RED + "🌾 Selected Wheat Bread" + CaseColors.ANSI_RESET);
                 sleep(300);
                 yield BreadType.WHEAT;
             }
             case "3" -> {
-                System.out.println(CaseColors.ANSI_GREEN + "🥖 Selected Rye bread" + CaseColors.ANSI_RESET);
+                System.out.println(CaseColors.ANSI_GREEN + "🥖 Selected Rye Bread" + CaseColors.ANSI_RESET);
                 sleep(300);
                 yield BreadType.RYE;
             }
@@ -181,8 +181,13 @@ public class Heckin_Launcher {
                 sleep(300);
                 yield BreadType.WRAP;
             }
+            case "5" ->{
+                System.out.println(CaseColors.ANSI_RED + "💚🤍❤️ Selected Italian Cheese and Herb" + CaseColors.ANSI_RESET);
+                sleep(300);
+                yield BreadType.ITALIAN_HERB_AND_CHEESE;
+            }
             default -> {
-                System.out.println(CaseColors.ANSI_YELLOW + "🍞 Defaulted to White bread" + CaseColors.ANSI_RESET);
+                System.out.println(CaseColors.ANSI_YELLOW + "🍞 Defaulted to White Bread" + CaseColors.ANSI_RESET);
                 sleep(300);
                 yield BreadType.WHITE;
             }
