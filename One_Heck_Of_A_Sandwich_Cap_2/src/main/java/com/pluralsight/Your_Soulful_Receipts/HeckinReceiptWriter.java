@@ -9,7 +9,7 @@ import java.io.File;
 import java.time.LocalDateTime;
 
 
-public class ReceiptWriter {
+public class HeckinReceiptWriter {
     public static void saveReceipt(Heck_Order order) {
         try {
             File folder = new File("One_Heck_Of_A_Receipt_Directory");

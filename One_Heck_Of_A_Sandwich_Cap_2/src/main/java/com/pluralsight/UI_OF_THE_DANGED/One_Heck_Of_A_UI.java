@@ -13,7 +13,7 @@ import com.pluralsight.Hecks_Signatures.HeckinItalianSub;
 import com.pluralsight.One_Heck_of_a_Sandwich_Package.Heckful_Sandwich;
 import com.pluralsight.Sides.Chips;
 import com.pluralsight.Sides.Drink;
-import com.pluralsight.Your_Soulful_Receipts.ReceiptWriter;
+import com.pluralsight.Your_Soulful_Receipts.HeckinReceiptWriter;
 
 import java.util.Scanner;
 
@@ -111,7 +111,7 @@ public class One_Heck_Of_A_UI {
                     if (scanner.nextLine().equalsIgnoreCase("y")) {
                         System.out.println(ColorCodes.BRIGHT_CYAN + "Saving your order 💾" + ColorCodes.RESET);
                         sleep(700);
-                        ReceiptWriter.saveReceipt(order);
+                        HeckinReceiptWriter.saveReceipt(order);
                         System.out.println(ColorCodes.BRIGHT_GREEN + ColorCodes.BOLD + "Order confirmed and saved! 😉" + ColorCodes.RESET);
                         sleep(500);
                         ordering = false;
@@ -132,7 +132,7 @@ public class One_Heck_Of_A_UI {
     }
 
     private static Heckful_Sandwich buildSandwich() {
-        System.out.println(ColorCodes.BRIGHT_YELLOW + ColorCodes.BOLD + "\n===🏗️ Build Your Hellish Sandwich 😋===" + ColorCodes.RESET);
+        System.out.println(ColorCodes.BRIGHT_YELLOW + ColorCodes.BOLD + "\n===🏗️ Build Your Heckin Sandwich 😋===" + ColorCodes.RESET);
         sleep(350);
 
         System.out.println(ColorCodes.BRIGHT_WHITE + "Choose size: " + ColorCodes.GREEN + "1) 4\" 📏  " + ColorCodes.BLUE + "2) 8\" 📏 " + ColorCodes.PURPLE + "3) 12\" 📏" + ColorCodes.RESET);
