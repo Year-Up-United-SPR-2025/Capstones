@@ -23,3 +23,9 @@ https://emojis.wiki/
 
 //Sleep/Pause in Java
 https://www.geeksforgeeks.org/thread-sleep-method-in-java-with-examples/
+
+//Making code into a screenshot
+https://carbon.now.sh/
+
+//YouTube Video
+https://youtu.be/Ia9SrZF1u5Y
