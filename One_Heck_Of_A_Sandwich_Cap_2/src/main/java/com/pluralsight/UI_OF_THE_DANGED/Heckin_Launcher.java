@@ -17,7 +17,7 @@ import com.pluralsight.Your_Soulful_Receipts.HeckinReceiptWriter;
 
 import java.util.Scanner;
 
-public class One_Heck_Of_A_UI {
+public class Heckin_Launcher {
     private static final Scanner scanner = new Scanner(System.in);
     private static final double SURCHARGE_AMOUNT = 0.50;
 
