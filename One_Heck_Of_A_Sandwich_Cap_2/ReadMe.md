@@ -91,8 +91,6 @@ Once you press `1` you see the text "Starting new order." Then see the `Order Me
 
 # Video Demo of Code 🥪📽️
 
-Video
----
 [![Screenshot 2025-05-25 095046](https://github.com/user-attachments/assets/e7863657-f24f-434a-81d9-1c0b1f32f6f1)](https://youtu.be/Ia9SrZF1u5Y)
 
 Click the image above to watch a video walkthrough of how the code works in action.
