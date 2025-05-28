@@ -23,7 +23,7 @@ src/
             │   └── Heck_Order
             ├── Hecks_Signatures/
             │   ├── BLT_O_Heck
-            │   ├── CluckinChickenBaconRanch
+            │   ├── TheCluckinChicken
             │   ├── Heck_O_Alot_Of_PhillyCheaseSteak
             │   ├── HeckinItalianSub
             │   ├── Hecks_Signature
@@ -36,7 +36,7 @@ src/
             ├── UI_OF_THE_DANGED/
             │   ├── CaseColors
             │   ├── ColorCodes
-            │   └── One_Heck_Of_A_UI
+            │   └── Heckin_Launcher
             └── Your_Soulful_Receipts/
                 ├── ReceiptWriter
-                └── One_Heck_Of_A_Main
+                └── Heckin_Main

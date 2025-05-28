@@ -65,7 +65,6 @@ V2: https://github.com/Year-Up-United-SPR-2025/Capstones/blob/main/One_Heck_Of_A
 
 V3: https://github.com/Year-Up-United-SPR-2025/Capstones/blob/main/One_Heck_Of_A_Sandwich_Cap_2/UML's/V3FlowChart/One%20Heck%20of%20A%20FlowChart%20V3.jpg
 
-
 Right here is where you can see my file structure as well to get an idea of how the flowchart and this fit together:
 [One_Heck_of_A_File_Structure.txt](One_Heck_of_A_File_Structure.txt)
 # Project Demo 📹🥪
