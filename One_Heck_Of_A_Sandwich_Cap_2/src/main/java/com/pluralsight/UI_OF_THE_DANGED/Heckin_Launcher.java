@@ -181,8 +181,8 @@ public class Heckin_Launcher {
                 sleep(300);
                 yield BreadType.WRAP;
             }
-            case "5" ->{
-                System.out.println(ColorCodes.LIME_GREEN_RGB + "Selected" +  ColorCodes.SNOW_RGB + " Italian Cheese" + ColorCodes.BRIGHT_RED + " and Herb" + " 💚🤍❤️" + CaseColors.ANSI_RESET);
+            case "5" -> {
+                System.out.println(ColorCodes.LIME_GREEN_RGB + "Selected" + ColorCodes.SNOW_RGB + " Italian Cheese" + ColorCodes.BRIGHT_RED + " and Herb" + " 💚🤍❤️" + CaseColors.ANSI_RESET);
                 sleep(300);
                 yield BreadType.ITALIAN_HERB_AND_CHEESE;
             }
@@ -223,7 +223,9 @@ public class Heckin_Launcher {
     private static class ToppingCounter {
         private int totalToppings = 0;
         private int extraToppings = 0;
-        private int chargesMade = 0; // Track how many surcharges we've applied
+        private int totalSauces = 0;
+        private int extraSauces = 0;
+        private int chargesMade = 0;
         private Heckful_Sandwich sandwich;
 
         public ToppingCounter(Heckful_Sandwich sandwich) {
@@ -232,9 +234,13 @@ public class Heckin_Launcher {
 
         public void addTopping(boolean isExtra) {
             totalToppings++;
-            if (isExtra) {
-                extraToppings++;
-            }
+            if (isExtra) extraToppings++;
+            checkForChargeApplication();
+        }
+
+        public void addSauce(boolean isPremium) {
+            totalSauces++;
+            if (isPremium) extraSauces++;
             checkForChargeApplication();
         }
 
@@ -242,20 +248,24 @@ public class Heckin_Launcher {
             boolean shouldCharge = false;
             String chargeReason = "";
 
-            // Check if we should apply charge
-            if (totalToppings > 0 && totalToppings % 5 == 0) {
-                int expectedCharges = totalToppings / 5;
+            int combinedTotal = totalToppings + totalSauces;
+            int combinedExtras = extraToppings + extraSauces;
+
+            // Charge for every 3 total items (toppings + sauces)
+            if (combinedTotal > 0 && combinedTotal % 3 == 0) {
+                int expectedCharges = combinedTotal / 3;
                 if (expectedCharges > chargesMade) {
                     shouldCharge = true;
-                    chargeReason = "every 5 toppings";
+                    chargeReason = "every 3 total toppings/sauces";
                 }
             }
 
-            if (extraToppings > 0 && extraToppings % 2 == 0) {
-                int expectedExtraCharges = extraToppings / 2;
-                if (expectedExtraCharges > (chargesMade - (totalToppings / 5))) {
+            // Charge for every 2 extras (extra toppings + premium sauces)
+            if (combinedExtras > 0 && combinedExtras % 2 == 0) {
+                int expectedExtraCharges = combinedExtras / 2;
+                if (expectedExtraCharges > (chargesMade - (combinedTotal / 3))) {
                     shouldCharge = true;
-                    chargeReason = "every 2 extra toppings";
+                    chargeReason = "every 2 extras (toppings/premium sauces)";
                 }
             }
 
@@ -270,6 +280,7 @@ public class Heckin_Launcher {
             }
         }
     }
+
 
     private static void addToppings(Heckful_Sandwich sandwich, String type, boolean isPremium, ToppingCounter counter) {
         String[] options = switch (type) {
