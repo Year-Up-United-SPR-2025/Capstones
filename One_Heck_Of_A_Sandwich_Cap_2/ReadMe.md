@@ -4,7 +4,7 @@ It will leverage object-oriented programming principles by organizing the system
 The development starts with a class flowchart to guide the architecture, which will be updated and maintained in the project repository as the application evolves.
 
 # Roadmap 🚧🥪
-1. Created a Flowchart in Draw.io with color coded packages and arrows to visualize the structure components of the project I am making.
+1. Look through the documentation and created a Flowchart in Draw.io with color coded packages and arrows to visualize the structure components of the project I am making.
 
 Package Structure
 ---
