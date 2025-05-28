@@ -50,7 +50,7 @@ User Interface
 * `Heckin_Launcher` this class uses a Colorful CLI with emoji-enhanced menus for ordering, customization, and checkout. Also contains a `Thread.sleep()` method for smoother menu transitions.
 * `CaseColors and ColorCodes` both of these classes make my project colorful in the terminal.
 
-Main
+Main or Entry Point
 ---
 6. Created my entry point class named `Heckin_Main` this runs my application using the `Heckin_Launcher.UI_Display()` to launch the application.
 
