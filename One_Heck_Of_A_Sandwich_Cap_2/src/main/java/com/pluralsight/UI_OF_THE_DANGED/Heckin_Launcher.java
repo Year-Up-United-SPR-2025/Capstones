@@ -159,7 +159,7 @@ public class Heckin_Launcher {
             }
         };
 
-        System.out.println(ColorCodes.ANTIQUE_WHITE + "Choose bread: " + ColorCodes.YELLOW + "1) White  " + ColorCodes.RED + "2) Wheat  " + ColorCodes.GREEN + "3) Rye  " + ColorCodes.CYAN + "4) Wrap" + ColorCodes.RED + " 5) Italian" + ColorCodes.GHOST_WHITE + " Cheese" + ColorCodes.FOREST_GREEN + " and Herbs" + ColorCodes.RESET);
+        System.out.println(ColorCodes.ANTIQUE_WHITE + "Choose bread: " + ColorCodes.YELLOW + "1) White  " + ColorCodes.RED + "2) Wheat  " + ColorCodes.GREEN + "3) Rye  " + ColorCodes.CYAN + "4) Wrap" + ColorCodes.RED + " 5) Italian" + ColorCodes.GHOST_WHITE + " Cheese" + ColorCodes.LIME_GREEN_RGB + " and Herbs" + ColorCodes.RESET);
         BreadType bread = switch (scanner.nextLine()) {
             case "1" -> {
                 System.out.println(CaseColors.ANSI_YELLOW + "🍞 Selected White bread" + CaseColors.ANSI_RESET);
