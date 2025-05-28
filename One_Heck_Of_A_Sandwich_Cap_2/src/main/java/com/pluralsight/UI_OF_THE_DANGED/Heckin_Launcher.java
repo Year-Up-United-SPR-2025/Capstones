@@ -7,9 +7,9 @@ import com.pluralsight.Heck_Toppings.Heckful_PremiumToppings;
 import com.pluralsight.Heck_Toppings.Heckful_RegularToppings;
 import com.pluralsight.Heckful_Order.Heck_Order;
 import com.pluralsight.Hecks_Signatures.BLT_O_Heck;
-import com.pluralsight.Hecks_Signatures.CluckinChickenBaconRanch;
 import com.pluralsight.Hecks_Signatures.Heck_O_Alot_Of_PhillyCheeseSteak;
 import com.pluralsight.Hecks_Signatures.HeckinItalianSub;
+import com.pluralsight.Hecks_Signatures.TheCluckinChicken;
 import com.pluralsight.One_Heck_of_a_Sandwich_Package.Heckful_Sandwich;
 import com.pluralsight.Sides.Chips;
 import com.pluralsight.Sides.Drink;
@@ -396,7 +396,7 @@ public class Heckin_Launcher {
             case "1" -> new BLT_O_Heck();
             case "2" -> new Heck_O_Alot_Of_PhillyCheeseSteak();
             case "3" -> new HeckinItalianSub();
-            case "4" -> new CluckinChickenBaconRanch();
+            case "4" -> new TheCluckinChicken();
             default -> {
                 System.out.println(ColorCodes.BRIGHT_RED + "Invalid choice. Returning to menu." + ColorCodes.RESET);
                 yield null;

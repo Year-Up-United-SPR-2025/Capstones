@@ -8,12 +8,28 @@ The development starts with a class flowchart to guide the architecture, which w
 
 Package Structure
 ---
-2. Created A package named 'Heck_Emuns'. This package is using emuns a java type that keeps variables defined as constants throughout the project
+2. Created A package named `Heck_Emuns`. This package is using emuns a java type that keeps variables defined as constants throughout the project
 effectively leaving them in their final states. This package contains the Bread Types we serve at the shop, The drink sizes and the size of the sandwiches 
 people can buy:
-* BreadType: WHITE, WHEAT, RYE, WRAP, ITALIAN_HERB_AND_CHEESE
-* DrinkSize: SMALL, MEDIUM, LARGE
-* SandwichSize: FOUR_INCH, EIGHT_INCH, TWELVE_INCH
+* `BreadType`: WHITE, WHEAT, RYE, WRAP, ITALIAN_HERB_AND_CHEESE
+* `DrinkSize`: SMALL, MEDIUM, LARGE
+* `SandwichSize`: FOUR_INCH, EIGHT_INCH, TWELVE_INCH
+3. Created a package named `Sides` this package contains two classes:
+* `Chips`: Has Fixed price of $1.50 with a type description
+* `Drink`: HAs Sized bases pricing with flavor options
+3. Created a package named `Heck_Toppings`. This package contains three classes:
+* `Heckful_Toppings`: An Abstract bases class with a `getPrice()` method 
+* `Heckful_RegularToppings`: Free toppings (returns $0.00)
+* `Heckful_PremiumToppings`: Paid toppings with size-based pricing
+3. Created a package named `Heck_Signatures` this package contains the different signature sandwiches my shop contains and the base class for sandwiches:
+* `Hecks_Signature`: Base class for predefined sandwiches
+* `BLT_O_Heck`: An eight-inch toasted white with bacon, cheddar, lettuce, tomatoes, ranch
+* `Heck_O_Alot_Of_PhillyCheeseSteak`: An eight inch toasted white with steak, American cheese, peppers, mayo
+* `TheCluckinChicken`: A twelve-inch Wheat bread with chicken, bacon, ranch
+* `HeckinItialianSub`: An eight-inch sub with Salami, Pepperoni, Provolone, Lettuce, Tomato and Oil & Vinegar.
+4. Created my core packages which are:
+* `One_Heck_of_a_Sandwich_Package` this contains the `Heckful_Sandwich` class that keeps track of the customizable sandwich with size, bread, toppings, and pricing calculation.
+* `Heckful_Order` 
 
 
 
