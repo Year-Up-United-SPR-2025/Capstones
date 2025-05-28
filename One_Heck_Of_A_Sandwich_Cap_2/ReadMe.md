@@ -54,8 +54,6 @@ Main
 ---
 6. Created my entry point class named `Heckin_Main` this runs my application using the `Heckin_Launcher.UI_Display()` to launch the application.
 
-***
-
 # FlowChart & File Structure 📊🥪
 ![One Heck of A FlowChart V3.jpg](UML%27s/V3FlowChart/One%20Heck%20of%20A%20FlowChart%20V3.jpg)
 
