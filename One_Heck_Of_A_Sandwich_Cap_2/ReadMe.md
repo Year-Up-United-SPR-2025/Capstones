@@ -14,26 +14,44 @@ people can buy:
 * `BreadType`: WHITE, WHEAT, RYE, WRAP, ITALIAN_HERB_AND_CHEESE
 * `DrinkSize`: SMALL, MEDIUM, LARGE
 * `SandwichSize`: FOUR_INCH, EIGHT_INCH, TWELVE_INCH
+
+Side Items
+---
 3. Created a package named `Sides` this package contains two classes:
 * `Chips`: Has Fixed price of $1.50 with a type description
 * `Drink`: HAs Sized bases pricing with flavor options
+
+Toppings System
+---
 3. Created a package named `Heck_Toppings`. This package contains three classes:
 * `Heckful_Toppings`: An Abstract bases class with a `getPrice()` method 
 * `Heckful_RegularToppings`: Free toppings (returns $0.00)
 * `Heckful_PremiumToppings`: Paid toppings with size-based pricing
+
+Signature Sandwich
+---
 3. Created a package named `Heck_Signatures` this package contains the different signature sandwiches my shop contains and the base class for sandwiches:
 * `Hecks_Signature`: Base class for predefined sandwiches
 * `BLT_O_Heck`: An eight-inch toasted white with bacon, cheddar, lettuce, tomatoes, ranch
 * `Heck_O_Alot_Of_PhillyCheeseSteak`: An eight inch toasted white with steak, American cheese, peppers, mayo
 * `TheCluckinChicken`: A twelve-inch Wheat bread with chicken, bacon, ranch
 * `HeckinItialianSub`: An eight-inch sub with Salami, Pepperoni, Provolone, Lettuce, Tomato and Oil & Vinegar.
+
+Core Packages and Classes 
+---
 4. Created my core packages which are:
 * `One_Heck_of_a_Sandwich_Package` this contains the `Heckful_Sandwich` class that keeps track of the customizable sandwich with size, bread, toppings, and pricing calculation.
 * `Heckful_Order` this package contains `Heck_Order` this class keeps track of order management with ArrayLists for sandwiches, drinks, chips; auto-timestamped with total pricing
-* `Your_Soulful_Receipts` this package contains `HeckinReceiptWriter` this class can create a directory for the receipts and saves the receipts as timestamped text files. Also, if the directory already exists it will just put the recipt in the directory instead of making a new one. 
+* `Your_Soulful_Receipts` this package contains `HeckinReceiptWriter` this class can create a directory for the receipts and saves the receipts as timestamped text files. Also, if the directory already exists it will just put the receipt in the directory instead of making a new one. 
+
+User Interface
+---
 5. Created the user interface package `UI_OF_THE_DANGED` this package contains:
 * `Heckin_Launcher`: this class uses a Colorful CLI with emoji-enhanced menus for ordering, customization, and checkout. Also contains a `Thread.sleep()` method for smoother menu transitions.
 * `CaseColors and ColorCodes` both of these classes make my project colorful in the terminal.
+
+Main
+---
 6. Created my entry point class named `Heckin_Main` this runs my application using the `Heckin_Launcher.UI_Display()` to launch the application.
 
 
