@@ -29,7 +29,12 @@ people can buy:
 * `HeckinItialianSub`: An eight-inch sub with Salami, Pepperoni, Provolone, Lettuce, Tomato and Oil & Vinegar.
 4. Created my core packages which are:
 * `One_Heck_of_a_Sandwich_Package` this contains the `Heckful_Sandwich` class that keeps track of the customizable sandwich with size, bread, toppings, and pricing calculation.
-* `Heckful_Order` 
+* `Heckful_Order` this package contains `Heck_Order` this class keeps track of order management with ArrayLists for sandwiches, drinks, chips; auto-timestamped with total pricing
+* `Your_Soulful_Receipts` this package contains `HeckinReceiptWriter` this class can create a directory for the receipts and saves the receipts as timestamped text files. Also, if the directory already exists it will just put the recipt in the directory instead of making a new one. 
+5. Created the user interface package `UI_OF_THE_DANGED` this package contains:
+* `Heckin_Launcher`: this class uses a Colorful CLI with emoji-enhanced menus for ordering, customization, and checkout. Also contains a `Thread.sleep()` method for smoother menu transitions.
+* `CaseColors and ColorCodes` both of these classes make my project colorful in the terminal.
+6. Created my entry point class named `Heckin_Main` this runs my application using the `Heckin_Launcher.UI_Display()` to launch the application.
 
 
 
