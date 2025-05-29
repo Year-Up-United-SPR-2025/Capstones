@@ -291,7 +291,7 @@ public class Heckin_Launcher {
             case "regular" ->
                     new String[]{ColorCodes.FOREST_GREEN + "🥬 Lettuce", ColorCodes.BRIGHT_RED + "🌶️ Peppers", ColorCodes.YELLOW + "🧅 Onions", ColorCodes.RED + "🍅 Tomatoes", ColorCodes.LIME_GREEN + "🌶️ Jalapeños", ColorCodes.GREEN + "🥒 Cucumbers", ColorCodes.SEA_GREEN + "🥒 Pickles", ColorCodes.GREEN + "🥑 Guacamole", ColorCodes.GHOST_WHITE + "🍄 Mushrooms"};
             case "sauce" ->
-                    new String[]{ColorCodes.GHOST_WHITE + "🥪 Mayo", ColorCodes.YELLOW + "💛 Honey Mustard" + ColorCodes.BRIGHT_RED + "🍅 Ketchup", ColorCodes.ANTIQUE_WHITE + "🥗 Ranch", ColorCodes.ORANGE + "🧡 Thousand Islands", ColorCodes.CORAL + "🥗 Vinaigrette"};
+                    new String[]{ColorCodes.GHOST_WHITE + "🥪 Mayo", ColorCodes.YELLOW + "💛 Honey Mustard", ColorCodes.BRIGHT_RED + "🍅 Ketchup", ColorCodes.ANTIQUE_WHITE + "🥗 Ranch", ColorCodes.ORANGE + "🧡 Thousand Islands", ColorCodes.CORAL + "🥗 Vinaigrette"};
             default -> new String[]{};
         };
 
