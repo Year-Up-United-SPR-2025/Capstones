@@ -399,7 +399,7 @@ public class Heckin_Launcher {
         System.out.println(ColorCodes.BLUE + "1) 🥓 BLT O Heck" + ColorCodes.RESET);
         System.out.println(ColorCodes.RED + "2) 🧀 Heck O Alot Of Philly Cheese Steak" + ColorCodes.RESET);
         System.out.println(ColorCodes.BRIGHT_PURPLE + "3) 🍅 Heckin Italian" + ColorCodes.RESET);
-        System.out.println(ColorCodes.LAVENDER + "4) 🍗 Heckin Chicken" + ColorCodes.RESET);
+        System.out.println(ColorCodes.LAVENDER + "4) 🍗 The Cluckin Chicken" + ColorCodes.RESET);
         System.out.print("Your choice: ");
         String input = scanner.nextLine();
 
