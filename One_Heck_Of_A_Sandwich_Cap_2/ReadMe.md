@@ -19,7 +19,7 @@ Side Items
 ---
 3. Created a package named `Sides` this package contains two classes:
 * `Chips` Has Fixed price of $1.50 with a type description
-* `Drink` HAs Sized bases pricing with flavor options
+* `Drink` Has Sized bases pricing with flavor options
 
 Toppings System
 ---
