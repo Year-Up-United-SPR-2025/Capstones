@@ -52,8 +52,4 @@ public class Heck_Order {
 
         return sb.toString();
     }
-
-    public LocalDateTime getTimestamp() {
-        return timestamp;
-    }
 }
