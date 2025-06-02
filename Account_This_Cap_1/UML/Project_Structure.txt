@@ -3,17 +3,17 @@ Account_This_Cap_1/
 ├── com.pluralsight
 │   └── Main.java
 │
-├── com.pluralsight.models
+├── com.pluralsight.Model_This
 │   └── LedgerEntry.java
 │
-├── com.pluralsight.services
+├── com.pluralsight.Service_This
 │   └── LedgerService.java
 │   └── CsvHandler.java
 │
-├── com.pluralsight.ui
+├── com.pluralsight.UI
 │   └── HomeScreen.java
 │   └── LedgerScreen.java
 │   └── ReportScreen.java
 │
-├── data/
+├── Data_This/
 │   └── ledger.csv
