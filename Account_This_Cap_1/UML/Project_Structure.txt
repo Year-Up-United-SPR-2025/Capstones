@@ -1,16 +1,16 @@
 Account_This_Cap_1/
 │
-├── com.ledgerapp
+├── com.pluralsight
 │   └── Main.java
 │
-├── com.ledgerapp.models
+├── com.pluralsight.models
 │   └── LedgerEntry.java
 │
-├── com.ledgerapp.services
+├── com.pluralsight.services
 │   └── LedgerService.java
 │   └── CsvHandler.java
 │
-├── com.ledgerapp.ui
+├── com.pluralsight.ui
 │   └── HomeScreen.java
 │   └── LedgerScreen.java
 │   └── ReportScreen.java
