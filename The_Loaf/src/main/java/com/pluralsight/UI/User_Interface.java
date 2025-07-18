@@ -34,7 +34,7 @@ public class User_Interface {
         boolean running = true;
 
         while (running) {
-            System.out.println(ColorCodes.BRIGHT_YELLOW + ColorCodes.BOLD + "==== 🫂 Welcome to One Heck Of A Sandwich 🥵 ====" + ColorCodes.RESET);
+            System.out.println(ColorCodes.BRIGHT_YELLOW + ColorCodes.BOLD + "==== 🫂 Welcome to The LOaf 🥵 ====" + ColorCodes.RESET);
             sleep(200);
             System.out.println(ColorCodes.BRIGHT_GREEN + "1) New Order 🌚" + ColorCodes.RESET);
             System.out.println(ColorCodes.BRIGHT_RED + "0) Exit 🙋🏾‍♂️" + ColorCodes.RESET);

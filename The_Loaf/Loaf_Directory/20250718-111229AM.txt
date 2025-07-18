@@ -1,0 +1,19 @@
+==== One Heck Of A Sandwich Receipt ==== 🧾
+Time: 2025-07-18T11:12:16.195902800
+
+Sandwich:
+EIGHT_INCH WHITE Sandwich (Toasted)
+Toppings:
+- [91m🥓 Bacon[0m
+- [93m🧀 Cheddar[0m
+- [92m🥬 Lettuce[0m
+- [31m🍅 Tomatoes[0m
+- [37m🥗 Ranch[0m
+Total Price: $7.00
+
+Toppings:
+0.0
+
+
+TOTAL: $7.00
+=========================================

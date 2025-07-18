@@ -59,7 +59,6 @@ public class Loaf {
         sb.append(size).append(" ").append(bread).append(" Sandwich").append(toasted ? " (Toasted)" : "");
         sb.append("\nToppings:\n");
         for (Loaf_Toppings t : toppings) {
-            if (Loaf_Toppings topping instanceof Loaf_PremiumToppings)
             sb.append("- ").append(t.getName()).append(t.isExtra() ? " (Extra)" : "").append("\n");
         }
         if (additionalCharges > 0) {

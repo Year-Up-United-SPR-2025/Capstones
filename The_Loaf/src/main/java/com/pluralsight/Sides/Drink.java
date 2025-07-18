@@ -41,6 +41,9 @@ public class Drink {
         this.flavor = flavor;
     }
 
+    public Drink(DrinkSize size, String flavor) {
+    }
+
     public DrinkSize getSize() {
         return size;
     }
