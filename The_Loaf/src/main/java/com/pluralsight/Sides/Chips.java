@@ -3,7 +3,7 @@ package com.pluralsight.Sides;
 import com.pluralsight.Loaf_Emuns.ChipTypes;
 
 public class Chips {
-    private ChipTypes type;
+    private final ChipTypes type;
 
     public Chips(String type) {
         this.type = ChipTypes.valueOf(type.toUpperCase());

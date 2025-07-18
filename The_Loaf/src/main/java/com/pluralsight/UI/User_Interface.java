@@ -1,6 +1,7 @@
 package com.pluralsight.UI;
 
 import com.pluralsight.Loaf_Emuns.BreadType;
+import com.pluralsight.Loaf_Emuns.ChipTypes;
 import com.pluralsight.Loaf_Emuns.DrinkSize;
 import com.pluralsight.Loaf_Emuns.SandwichSize;
 import com.pluralsight.Loaf_Order.Loaf_Order;
@@ -393,7 +394,29 @@ public class User_Interface {
     private static Chips buildChips() {
         System.out.println(ColorCodes.BRIGHT_GREEN + ColorCodes.BOLD + "\n===➕ Add Chips 🛢️🥔===" + ColorCodes.RESET);
         sleep(250);
-        System.out.print(ColorCodes.BRIGHT_YELLOW + "Enter Chips Flavor or Type: " + ColorCodes.RESET);
+        System.out.println(ColorCodes.BRIGHT_WHITE + "Choose Chips: " + ColorCodes.GREEN + "1) Lays  " + ColorCodes.YELLOW + "2) Doritos  " + ColorCodes.RED + "3) Sun Chips" + ColorCodes.RESET);
+        ChipTypes types = switch (scanner.nextLine()){
+            case "1" -> {
+                System.out.println(CaseColors.ANSI_GREEN + "Selected Lays" + CaseColors.ANSI_RESET);
+                sleep(300);
+                yield ChipTypes.LAYS;
+            }
+            case "2" -> {
+                System.out.println(CaseColors.ANSI_YELLOW + "Selected Doritos" + CaseColors.ANSI_RESET);
+                sleep(300);
+                yield ChipTypes.DORITOS;
+            }
+            case "3" -> {
+                System.out.println(CaseColors.ANSI_RED + "Selected Sun Chips" + CaseColors.ANSI_RESET);
+                sleep(300);
+                yield ChipTypes.SUN_CHIPS;
+            }
+            default -> {
+                System.out.println(CaseColors.ANSI_GREEN + "Defaulted to Lays" + CaseColors.ANSI_RESET);
+                sleep(300);
+                yield ChipTypes.LAYS;
+            }
+        };
         String type = scanner.nextLine();
         System.out.println(ColorCodes.BRIGHT_GREEN + "✅ Added " + type + " chips!" + ColorCodes.RESET);
         sleep(300);
