@@ -1,6 +1,6 @@
-package com.pluralsight.Heckful_Order;
+package com.pluralsight.Loaf_Order;
 
-import com.pluralsight.One_Heck_of_a_Sandwich_Package.Heckful_Sandwich;
+import com.pluralsight.Loaf_Package.Loaf;
 import com.pluralsight.Sides.Chips;
 import com.pluralsight.Sides.Drink;
 
@@ -8,23 +8,23 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Heck_Order {
-    private List<Heckful_Sandwich> sandwiches = new ArrayList<>();
+public class Loaf_Order {
+    private List<Loaf> sandwiches = new ArrayList<>();
     private List<Drink> drinks = new ArrayList<>();
     private List<Chips> chips = new ArrayList<>();
     private LocalDateTime timestamp;
 
-    public Heck_Order() {
+    public Loaf_Order() {
         this.timestamp = LocalDateTime.now();
     }
 
-    public void addSandwich(Heckful_Sandwich s) { sandwiches.add(s); }
+    public void addSandwich(Loaf s) { sandwiches.add(s); }
     public void addDrink(Drink d) { drinks.add(d); }
     public void addChips(Chips c) { chips.add(c); }
 
     public double getTotal() {
         double total = 0;
-        for (Heckful_Sandwich s : sandwiches) total += s.getTotalPrice();
+        for (Loaf s : sandwiches) total += s.getTotalPrice();
         for (Drink d : drinks) total += d.getPrice();
         for (Chips c : chips) total += c.getPrice();
         return total;
@@ -32,11 +32,14 @@ public class Heck_Order {
 
     public String generateReceipt() {
         StringBuilder sb = new StringBuilder();
+
         sb.append("==== One Heck Of A Sandwich Receipt ==== 🧾\n");
         sb.append("Time: ").append(timestamp).append("\n\n");
 
-        for (Heckful_Sandwich s : sandwiches) {
+        for (Loaf s : sandwiches) {
             sb.append("Sandwich:\n").append(s.getDescription()).append("\n\n");
+            
+            sb.append("Toppings:\n").append(s.getToppingsPrice()).append("\n\n");
         }
 
         for (Drink d : drinks) {

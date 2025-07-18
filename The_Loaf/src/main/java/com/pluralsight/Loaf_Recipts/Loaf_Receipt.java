@@ -1,6 +1,6 @@
-package com.pluralsight.Your_Soulful_Receipts;
+package com.pluralsight.Loaf_Recipts;
 
-import com.pluralsight.Heckful_Order.Heck_Order;
+import com.pluralsight.Loaf_Order.Loaf_Order;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -9,14 +9,14 @@ import java.io.File;
 import java.time.LocalDateTime;
 
 
-public class HeckinReceiptWriter {
-    public static void saveReceipt(Heck_Order order) {
+public class Loaf_Receipt {
+    public static void saveReceipt(Loaf_Order order) {
         try {
-            File folder = new File("One_Heck_Of_A_Receipt_Directory");
+            File folder = new File("Loaf_Directory");
             if (!folder.exists()) folder.mkdir();
 
             String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd-hhmmssa"));
-            String filename = "One_Heck_Of_A_Receipt_Directory/" + timestamp + ".txt";
+            String filename = "Loaf_Directory/" + timestamp + ".txt";
 
             FileWriter writer = new FileWriter(filename);
             writer.write(order.generateReceipt());
@@ -28,4 +28,5 @@ public class HeckinReceiptWriter {
         }
     }
 }
+
 
