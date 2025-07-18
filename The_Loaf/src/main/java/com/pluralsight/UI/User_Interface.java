@@ -389,6 +389,7 @@ public class User_Interface {
         return new Drink(size, flavor);
     }
 
+
     private static Chips buildChips() {
         System.out.println(ColorCodes.BRIGHT_GREEN + ColorCodes.BOLD + "\n===➕ Add Chips 🛢️🥔===" + ColorCodes.RESET);
         sleep(250);
@@ -400,11 +401,11 @@ public class User_Interface {
     }
 
     private static Loaf chooseSignature() {
-        System.out.println(ColorCodes.BRIGHT_WHITE + "\nChoose a signature sandwich:" + ColorCodes.RESET);
+        System.out.println(ColorCodes.BRIGHT_WHITE + "\nChoose a Signature Sandwich:" + ColorCodes.RESET);
         System.out.println(ColorCodes.BLUE + "1) 🥓 BLT" + ColorCodes.RESET);
         System.out.println(ColorCodes.RED + "2) 🧀  Philly Cheese Steak" + ColorCodes.RESET);
         System.out.println(ColorCodes.BRIGHT_PURPLE + "3) 🍅 Italian" + ColorCodes.RESET);
-        System.out.println(ColorCodes.LAVENDER + "4) Vegan" + ColorCodes.RESET);
+        System.out.println(ColorCodes.LAVENDER + "4) 🤍 Vegan" + ColorCodes.RESET);
         System.out.print("Your choice: ");
         String input = scanner.nextLine();
 

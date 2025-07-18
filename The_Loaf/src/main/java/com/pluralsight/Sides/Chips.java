@@ -2,21 +2,18 @@ package com.pluralsight.Sides;
 
 import com.pluralsight.Loaf_Emuns.ChipTypes;
 
-import static com.pluralsight.Loaf_Emuns.ChipTypes.*;
-
 public class Chips {
-    private String type;
-    private String Chip_Types;
+    private ChipTypes type;
 
     public Chips(String type) {
-        this.type = type;
+        this.type = ChipTypes.valueOf(type.toUpperCase());
     }
 
     public double getPrice() {
-            return 1.50;
+            return switch (type){
+                case LAYS, DORITOS, SUN_CHIPS -> 1.50;
+            };
     }
-
-
 
     public String getDescription() {
         return type + " Chips - $1.50";
