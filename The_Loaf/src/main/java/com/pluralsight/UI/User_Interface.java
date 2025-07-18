@@ -428,7 +428,7 @@ public class User_Interface {
         System.out.println(ColorCodes.BLUE + "1) 🥓 BLT" + ColorCodes.RESET);
         System.out.println(ColorCodes.RED + "2) 🧀  Philly Cheese Steak" + ColorCodes.RESET);
         System.out.println(ColorCodes.BRIGHT_PURPLE + "3) 🍅 Italian" + ColorCodes.RESET);
-        System.out.println(ColorCodes.LAVENDER + "4) 🤍 Vegan" + ColorCodes.RESET);
+        System.out.println(ColorCodes.SNOW_RGB + "4) 🤍 Vegan" + ColorCodes.RESET);
         System.out.print("Your choice: ");
         String input = scanner.nextLine();
 
