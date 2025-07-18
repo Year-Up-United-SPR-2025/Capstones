@@ -38,8 +38,6 @@ public class Loaf_Order {
 
         for (Loaf s : sandwiches) {
             sb.append("Sandwich:\n").append(s.getDescription()).append("\n\n");
-            
-            sb.append("Toppings:\n").append(s.getToppingsPrice()).append("\n\n");
         }
 
         for (Drink d : drinks) {

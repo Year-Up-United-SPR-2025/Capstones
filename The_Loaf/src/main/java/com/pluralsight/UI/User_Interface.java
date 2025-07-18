@@ -34,7 +34,7 @@ public class User_Interface {
         boolean running = true;
 
         while (running) {
-            System.out.println(ColorCodes.BRIGHT_YELLOW + ColorCodes.BOLD + "==== 🫂 Welcome to The LOaf 🥵 ====" + ColorCodes.RESET);
+            System.out.println(ColorCodes.BRIGHT_YELLOW + ColorCodes.BOLD + "==== 🫂 Welcome to The Loaf 🥵 ====" + ColorCodes.RESET);
             sleep(200);
             System.out.println(ColorCodes.BRIGHT_GREEN + "1) New Order 🌚" + ColorCodes.RESET);
             System.out.println(ColorCodes.BRIGHT_RED + "0) Exit 🙋🏾‍♂️" + ColorCodes.RESET);
@@ -58,8 +58,8 @@ public class User_Interface {
             }
         }
 
-        System.out.println(ColorCodes.BRIGHT_PURPLE + ColorCodes.BOLD + "Thank you for using One Heck Of A Sandwich! 🙇🏾" + ColorCodes.RESET +
-                ColorCodes.BRIGHT_CYAN + ColorCodes.BOLD + " Have one Heck of a Day Now 😈" + ColorCodes.RESET);
+        System.out.println(ColorCodes.BRIGHT_PURPLE + ColorCodes.BOLD + "Thank you for using The Loaf! 🙇🏾" + ColorCodes.RESET +
+                ColorCodes.BRIGHT_CYAN + ColorCodes.BOLD + " Have one Loaf of a Day Now " + ColorCodes.RESET);
         sleep(700);
     }
 
@@ -132,7 +132,7 @@ public class User_Interface {
     }
 
     private static Loaf buildSandwich() {
-        System.out.println(ColorCodes.BRIGHT_YELLOW + ColorCodes.BOLD + "\n===🏗️ Build Your Heckin Sandwich 😋===" + ColorCodes.RESET);
+        System.out.println(ColorCodes.BRIGHT_YELLOW + ColorCodes.BOLD + "\n===🏗️ Build Your Loaf 😋===" + ColorCodes.RESET);
         sleep(350);
 
         System.out.println(ColorCodes.BRIGHT_WHITE + "Choose size: " + ColorCodes.GREEN + "1) 4\" 📏  " + ColorCodes.BLUE + "2) 8\" 📏 " + ColorCodes.PURPLE + "3) 12\" 📏" + ColorCodes.RESET);
@@ -396,10 +396,10 @@ public class User_Interface {
 
     private static Loaf chooseSignature() {
         System.out.println(ColorCodes.BRIGHT_WHITE + "\nChoose a signature sandwich:" + ColorCodes.RESET);
-        System.out.println(ColorCodes.BLUE + "1) 🥓 BLT O Heck" + ColorCodes.RESET);
-        System.out.println(ColorCodes.RED + "2) 🧀 Heck O Alot Of Philly Cheese Steak" + ColorCodes.RESET);
-        System.out.println(ColorCodes.BRIGHT_PURPLE + "3) 🍅 Heckin Italian" + ColorCodes.RESET);
-        System.out.println(ColorCodes.LAVENDER + "4) 🍗 The Cluckin Chicken" + ColorCodes.RESET);
+        System.out.println(ColorCodes.BLUE + "1) 🥓 BLT" + ColorCodes.RESET);
+        System.out.println(ColorCodes.RED + "2) 🧀  Philly Cheese Steak" + ColorCodes.RESET);
+        System.out.println(ColorCodes.BRIGHT_PURPLE + "3) 🍅 Italian" + ColorCodes.RESET);
+        System.out.println(ColorCodes.LAVENDER + "4) Vegan" + ColorCodes.RESET);
         System.out.print("Your choice: ");
         String input = scanner.nextLine();
 
