@@ -352,7 +352,7 @@ public class User_Interface {
     private static Drink buildDrink() {
         System.out.println(ColorCodes.BRIGHT_CYAN + ColorCodes.BOLD + "\n===➕ Add a Drink 🍾 ===" + ColorCodes.RESET);
         sleep(250);
-        System.out.println(ColorCodes.BRIGHT_WHITE + "Choose Drink Size: " + ColorCodes.GREEN + "1) Small 🥤  " + ColorCodes.YELLOW + "2) Medium 🧃  " + ColorCodes.RED + "3) Large 🧋" + ColorCodes.RESET);
+        System.out.println(ColorCodes.BRIGHT_WHITE + "Choose Drink Size: " + ColorCodes.GREEN + "1) Small 🥤  " + ColorCodes.YELLOW + "2) Medium 🧃  " + ColorCodes.RED + "3) Large 🧋" + ColorCodes.RESET + ColorCodes.GOLD + "4) Extreme" + ColorCodes.RESET);
         DrinkSize size = switch (scanner.nextLine()) {
             case "1" -> {
                 System.out.println(CaseColors.ANSI_GREEN + "Selected Small drink 🥤" + CaseColors.ANSI_RESET);
@@ -366,6 +366,11 @@ public class User_Interface {
             }
             case "3" -> {
                 System.out.println(CaseColors.ANSI_RED + "Selected Large drink 🧋" + CaseColors.ANSI_RESET);
+                sleep(300);
+                yield DrinkSize.LARGE;
+            }
+            case  "4" -> {
+                System.out.println(CaseColors.ANSI_RED + "Selected Extreme drink 🍾" + CaseColors.ANSI_RESET);
                 sleep(300);
                 yield DrinkSize.LARGE;
             }
