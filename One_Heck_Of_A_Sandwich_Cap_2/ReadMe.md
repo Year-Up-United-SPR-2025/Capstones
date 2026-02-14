@@ -106,7 +106,7 @@ I challenged myself to implement it in my project to learn how to write more rel
 # References 🥪🔍
 https://github.com/Year-Up-United-SPR-2025/Capstones/blob/main/One_Heck_Of_A_Sandwich_Cap_2/resources/resorces.txt
 
-#Web Edition
+# Web Edition 🖥️🥪
 https://jordan721.github.io/Development-Showcase/Professional_Projects/One_Heck_Of_A_Sandwich_Web_Edition/index.html
 
 This project wouldn't have been possible without the help of these references.
